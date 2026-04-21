@@ -1,0 +1,5868 @@
+[
+  {
+    "question": "what percentage of the total oil and gas mmboe comes from canada?",
+    "answer": "24.69%",
+    "program_re": "multiply(divide(60, 243), const_100)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "",
+        "oil ( mmbbls )",
+        "gas ( bcf )",
+        "ngls ( mmbbls )",
+        "total ( mmboe )"
+      ],
+      [
+        "u.s . onshore",
+        "12",
+        "626",
+        "23",
+        "140"
+      ],
+      [
+        "u.s . offshore",
+        "8",
+        "68",
+        "1",
+        "20"
+      ],
+      [
+        "canada",
+        "23",
+        "198",
+        "4",
+        "60"
+      ],
+      [
+        "international",
+        "23",
+        "2",
+        "2014",
+        "23"
+      ],
+      [
+        "total",
+        "66",
+        "894",
+        "28",
+        "243"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_3": "the canada of oil ( mmbbls ) is 23 ; the canada of gas ( bcf ) is 198 ; the canada of ngls ( mmbbls ) is 4 ; the canada of total ( mmboe ) is 60 ;",
+      "table_5": "the total of oil ( mmbbls ) is 66 ; the total of gas ( bcf ) is 894 ; the total of ngls ( mmbbls ) is 28 ; the total of total ( mmboe ) is 243 ;",
+      "text_34": "oil gas ngls total ( mmbbls ) ( bcf ) ( mmbbls ) ( mmboe ) ."
+    }
+  },
+  {
+    "question": "what is the average amortization amount , in millions , from 2015-2019?",
+    "answer": "44.8",
+    "program_re": "divide(add(multiply(45, const_4), 44), const_5)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "year",
+        "amortization amount ( in millions )"
+      ],
+      [
+        "2015",
+        "$ 45"
+      ],
+      [
+        "2016",
+        "$ 45"
+      ],
+      [
+        "2017",
+        "$ 45"
+      ],
+      [
+        "2018",
+        "$ 45"
+      ],
+      [
+        "2019",
+        "$ 44"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_1": "year the 2015 of amortization amount ( in millions ) is $ 45 ;",
+      "table_2": "year the 2016 of amortization amount ( in millions ) is $ 45 ;",
+      "table_3": "year the 2017 of amortization amount ( in millions ) is $ 45 ;",
+      "table_4": "year the 2018 of amortization amount ( in millions ) is $ 45 ;",
+      "table_5": "year the 2019 of amortization amount ( in millions ) is $ 44 ;",
+      "text_10": "year amortization amount ( in millions ) ."
+    }
+  },
+  {
+    "question": "what amount of long-term debt due in the next 36 months as of december 31 , 2003 , in millions?",
+    "answer": "1041.5",
+    "program_re": "divide(add(add(503215, 462420), 75896), const_1000)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "",
+        "( in thousands )"
+      ],
+      [
+        "2004",
+        "$ 503215"
+      ],
+      [
+        "2005",
+        "$ 462420"
+      ],
+      [
+        "2006",
+        "$ 75896"
+      ],
+      [
+        "2007",
+        "$ 624539"
+      ],
+      [
+        "2008",
+        "$ 941625"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_1": "the 2004 of ( in thousands ) is $ 503215 ;",
+      "table_2": "the 2005 of ( in thousands ) is $ 462420 ;",
+      "table_3": "the 2006 of ( in thousands ) is $ 75896 ;"
+    }
+  },
+  {
+    "question": "what are the annual other sinking fund requirements as a percentage of annual long-term debt maturities ( excluding lease obligations ) and annual cash sinking fund requirements for debt outstanding in 2007?",
+    "answer": "6.35%",
+    "program_re": "divide(multiply(30.2, const_1000), 475288)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "2003",
+        "$ 1150786"
+      ],
+      [
+        "2004",
+        "$ 925005"
+      ],
+      [
+        "2005",
+        "$ 540372"
+      ],
+      [
+        "2006",
+        "$ 139952"
+      ],
+      [
+        "2007",
+        "$ 475288"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_4": "2003 the 2007 of $ 1150786 is $ 475288 ;",
+      "text_6": "the annual long-term debt maturities ( excluding lease obligations ) and annual cash sinking fund requirements for debt outstanding as of december 31 , 2002 , for the next five years are as follows ( in thousands ) : .",
+      "text_7": "not included are other sinking fund requirements of approximately $ 30.2 million annually , which may be satisfied by cash or by certification of property additions at the rate of 167% ( 167 % ) of such requirements ."
+    }
+  },
+  {
+    "question": "what percentage of the total purchase price is represented by goodwill?",
+    "answer": "22%",
+    "program_re": "divide(multiply(3.4, const_1000), 15704)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "",
+        "( in thousands )"
+      ],
+      [
+        "cash paid",
+        "$ 11001"
+      ],
+      [
+        "prior investment in hpl",
+        "1872"
+      ],
+      [
+        "acquisition-related costs",
+        "2831"
+      ],
+      [
+        "total purchase price",
+        "$ 15704"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_4": "the total purchase price of ( in thousands ) is $ 15704 ;",
+      "text_14": "goodwill , representing the excess of the purchase price over the fair value of the net tangible and identifiable intangible assets acquired in the merger was $ 3.4 million ."
+    }
+  },
+  {
+    "question": "what percent higher is the average var for foreign exchange products than that of interest rate products?",
+    "answer": "44%",
+    "program_re": "divide(add(1.1, 1.4), const_2)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "years ended december 31 ( inmillions )",
+        "2008 annual average",
+        "2008 maximum",
+        "2008 minimum",
+        "2008 annual average",
+        "2008 maximum",
+        "minimum"
+      ],
+      [
+        "foreign exchange products",
+        "$ 1.8",
+        "$ 4.7",
+        "$ .3",
+        "$ 1.8",
+        "$ 4.0",
+        "$ .7"
+      ],
+      [
+        "interest-rate products",
+        "1.1",
+        "2.4",
+        ".6",
+        "1.4",
+        "3.7",
+        ".1"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_2": "years ended december 31 ( inmillions ) the interest-rate products of 2008 annual average is 1.1 ; the interest-rate products of 2008 maximum is 2.4 ; the interest-rate products of 2008 minimum is .6 ; the interest-rate products of 2008 annual average is 1.4 ; the interest-rate products of 2008 maximum is 3.7 ; the interest-rate products of minimum is .1 ;",
+      "text_0": "the following table presents var with respect to our trading activities , as measured by our var methodology for the periods indicated : value-at-risk ."
+    }
+  },
+  {
+    "question": "what percentage of industrial packaging sales where represented by european industrial packaging net sales in 2007?",
+    "answer": "21%",
+    "program_re": "divide(multiply(1.1, const_1000), 5245)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "in millions",
+        "2007",
+        "2006",
+        "2005"
+      ],
+      [
+        "sales",
+        "$ 5245",
+        "$ 4925",
+        "$ 4625"
+      ],
+      [
+        "operating profit",
+        "$ 501",
+        "$ 399",
+        "$ 219"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_1": "in millions the sales of 2007 is $ 5245 ; the sales of 2006 is $ 4925 ; the sales of 2005 is $ 4625 ;",
+      "text_29": "european industrial packaging net sales for 2007 were $ 1.1 billion , up from $ 1.0 billion in 2006 and $ 880 million in 2005 ."
+    }
+  },
+  {
+    "question": "what was the average potential anti-dilutive share conversions from 2008 to 2010",
+    "answer": "708716.6",
+    "program_re": "divide(add(add(638401, add(256868, 1230881)), const_3), const_2)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "( in millions of u.s . dollars )",
+        "bermuda subsidiaries 2010",
+        "bermuda subsidiaries 2009",
+        "bermuda subsidiaries 2008",
+        "bermuda subsidiaries 2010",
+        "bermuda subsidiaries 2009",
+        "2008"
+      ],
+      [
+        "statutory capital and surplus",
+        "$ 11798",
+        "$ 9164",
+        "$ 6205",
+        "$ 6266",
+        "$ 5885",
+        "$ 5368"
+      ],
+      [
+        "statutory net income",
+        "$ 2430",
+        "$ 2369",
+        "$ 2196",
+        "$ 1047",
+        "$ 904",
+        "$ 818"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "text_1": "for the years ended december 31 , 2010 , 2009 , and 2008 , the potential anti-dilutive share conversions were 256868 shares , 1230881 shares , and 638401 shares , respectively ."
+    }
+  },
+  {
+    "question": "what was the average number of weighted average common shares outstanding for diluted computations from 2011 to 2013",
+    "answer": "331.6",
+    "program_re": "divide(add(add(add(326.5, 328.4), 339.9), const_3), const_2)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "",
+        "2013",
+        "2012",
+        "2011"
+      ],
+      [
+        "weighted average common shares outstanding for basic computations",
+        "320.9",
+        "323.7",
+        "335.9"
+      ],
+      [
+        "weighted average dilutive effect of equity awards",
+        "5.6",
+        "4.7",
+        "4.0"
+      ],
+      [
+        "weighted average common shares outstanding for diluted computations",
+        "326.5",
+        "328.4",
+        "339.9"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_3": "the weighted average common shares outstanding for diluted computations of 2013 is 326.5 ; the weighted average common shares outstanding for diluted computations of 2012 is 328.4 ; the weighted average common shares outstanding for diluted computations of 2011 is 339.9 ;"
+    }
+  },
+  {
+    "question": "what amount of long-term debt due in the next 24 months as of december 31 , 2003 , in millions?",
+    "answer": "965.6",
+    "program_re": "divide(add(503215, 462420), const_1000)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "",
+        "( in thousands )"
+      ],
+      [
+        "2004",
+        "$ 503215"
+      ],
+      [
+        "2005",
+        "$ 462420"
+      ],
+      [
+        "2006",
+        "$ 75896"
+      ],
+      [
+        "2007",
+        "$ 624539"
+      ],
+      [
+        "2008",
+        "$ 941625"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_1": "the 2004 of ( in thousands ) is $ 503215 ;",
+      "table_2": "the 2005 of ( in thousands ) is $ 462420 ;"
+    }
+  },
+  {
+    "question": "what percentage of amounts expensed in 2009 came from discretionary company contributions?",
+    "answer": "10.83%",
+    "program_re": "multiply(divide(3.8, 35.1), const_100)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "years",
+        "domestic pension plans",
+        "foreign pension plans",
+        "postretirement benefit plans"
+      ],
+      [
+        "2010",
+        "$ 17.2",
+        "$ 23.5",
+        "$ 5.8"
+      ],
+      [
+        "2011",
+        "11.1",
+        "24.7",
+        "5.7"
+      ],
+      [
+        "2012",
+        "10.8",
+        "26.4",
+        "5.7"
+      ],
+      [
+        "2013",
+        "10.5",
+        "28.2",
+        "5.6"
+      ],
+      [
+        "2014",
+        "10.5",
+        "32.4",
+        "5.5"
+      ],
+      [
+        "2015 2013 2019",
+        "48.5",
+        "175.3",
+        "24.8"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "text_14": "amounts expensed for the savings plans for 2009 , 2008 and 2007 were $ 35.1 , $ 29.6 and $ 31.4 , respectively .",
+      "text_15": "expense includes a discretionary company contribution of $ 3.8 , $ 4.0 and $ 4.9 offset by participant forfeitures of $ 2.7 , $ 7.8 , $ 6.0 in 2009 , 2008 and 2007 , respectively ."
+    }
+  },
+  {
+    "question": "what is the average percentage for aaa rated facilities in 2008 and 2009?",
+    "answer": "16.5%",
+    "program_re": "divide(add(14, 19), const_2)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "",
+        "december 31 2009",
+        "december 312008"
+      ],
+      [
+        "aaa/aaa",
+        "14% ( 14 % )",
+        "19% ( 19 % )"
+      ],
+      [
+        "aa/aa",
+        "50",
+        "6"
+      ],
+      [
+        "a/a",
+        "34",
+        "72"
+      ],
+      [
+        "bbb/baa",
+        "2",
+        "3"
+      ],
+      [
+        "total",
+        "100% ( 100 % )",
+        "100% ( 100 % )"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_1": "the aaa/aaa of december 31 2009 is 14% ( 14 % ) ; the aaa/aaa of december 312008 is 19% ( 19 % ) ;",
+      "table_5": "the total of december 31 2009 is 100% ( 100 % ) ; the total of december 312008 is 100% ( 100 % ) ;",
+      "text_0": "market street commitments by credit rating ( a ) december 31 , december 31 ."
+    }
+  },
+  {
+    "question": "what is the variation between the average and the highest operating margin?",
+    "answer": "2.53%",
+    "program_re": "subtract(table_max(operating margin, none), table_average(operating margin, none))",
+    "reasoning_steps": [
+      "Step 1: Find the maximum value from the financial table"
+    ],
+    "table": [
+      [
+        "years ended december 31",
+        "2014",
+        "2013",
+        "2012"
+      ],
+      [
+        "revenue",
+        "$ 4264",
+        "$ 4057",
+        "$ 3925"
+      ],
+      [
+        "operating income",
+        "485",
+        "318",
+        "289"
+      ],
+      [
+        "operating margin",
+        "11.4% ( 11.4 % )",
+        "7.8% ( 7.8 % )",
+        "7.4% ( 7.4 % )"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_3": "years ended december 31 the operating margin of 2014 is 11.4% ( 11.4 % ) ; the operating margin of 2013 is 7.8% ( 7.8 % ) ; the operating margin of 2012 is 7.4% ( 7.4 % ) ;"
+    }
+  },
+  {
+    "question": "what was the average weighted average common shares outstanding for diluted computations from 2015 to 2017",
+    "answer": "302.8",
+    "program_re": "divide(add(add(290.6, 303.1), 314.7), const_3)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "",
+        "2017",
+        "2016",
+        "2015"
+      ],
+      [
+        "weighted average common shares outstanding for basic computations",
+        "287.8",
+        "299.3",
+        "310.3"
+      ],
+      [
+        "weighted average dilutive effect of equity awards",
+        "2.8",
+        "3.8",
+        "4.4"
+      ],
+      [
+        "weighted average common shares outstanding for diluted computations",
+        "290.6",
+        "303.1",
+        "314.7"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_3": "the weighted average common shares outstanding for diluted computations of 2017 is 290.6 ; the weighted average common shares outstanding for diluted computations of 2016 is 303.1 ; the weighted average common shares outstanding for diluted computations of 2015 is 314.7 ;"
+    }
+  },
+  {
+    "question": "what is the average liability for all three programs , as of december 31 , 2008 , in millions?",
+    "answer": "4.27",
+    "program_re": "divide(add(add(1.2, 5.7), 5.9), const_3)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "",
+        "2007 program",
+        "2003 program",
+        "2001 program",
+        "total"
+      ],
+      [
+        "liability at december 31 2006",
+        "$ 2014",
+        "$ 12.6",
+        "$ 19.2",
+        "$ 31.8"
+      ],
+      [
+        "net charges ( reversals ) and adjustments",
+        "19.1",
+        "-0.5 ( 0.5 )",
+        "-5.2 ( 5.2 )",
+        "13.4"
+      ],
+      [
+        "payments and other1",
+        "-7.2 ( 7.2 )",
+        "-3.1 ( 3.1 )",
+        "-5.3 ( 5.3 )",
+        "-15.6 ( 15.6 )"
+      ],
+      [
+        "liability at december 31 2007",
+        "$ 11.9",
+        "$ 9.0",
+        "$ 8.7",
+        "$ 29.6"
+      ],
+      [
+        "net charges and adjustments",
+        "4.3",
+        "0.8",
+        "0.7",
+        "5.8"
+      ],
+      [
+        "payments and other1",
+        "-15.0 ( 15.0 )",
+        "-4.1 ( 4.1 )",
+        "-3.5 ( 3.5 )",
+        "-22.6 ( 22.6 )"
+      ],
+      [
+        "liability at december 31 2008",
+        "$ 1.2",
+        "$ 5.7",
+        "$ 5.9",
+        "$ 12.8"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_7": "the liability at december 31 2008 of 2007 program is $ 1.2 ; the liability at december 31 2008 of 2003 program is $ 5.7 ; the liability at december 31 2008 of 2001 program is $ 5.9 ; the liability at december 31 2008 of total is $ 12.8 ;",
+      "text_0": "notes to consolidated financial statements 2014 ( continued ) ( amounts in millions , except per share amounts ) a summary of the remaining liability for the 2007 , 2003 and 2001 restructuring programs is as follows : program program program total ."
+    }
+  },
+  {
+    "question": "for 2015 and 2014 , what was the average in millions for provision recapture for purchased impaired loans?",
+    "answer": "86.5",
+    "program_re": "divide(add(82, 91), const_2)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "in millions",
+        "2015",
+        "2014"
+      ],
+      [
+        "january 1",
+        "$ 1558",
+        "$ 2055"
+      ],
+      [
+        "accretion ( including excess cash recoveries )",
+        "-466 ( 466 )",
+        "-587 ( 587 )"
+      ],
+      [
+        "net reclassifications to accretable from non-accretable",
+        "226",
+        "208"
+      ],
+      [
+        "disposals",
+        "-68 ( 68 )",
+        "-118 ( 118 )"
+      ],
+      [
+        "december 31",
+        "$ 1250",
+        "$ 1558"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "text_0": "during 2015 , $ 82 million of provision recapture was recorded for purchased impaired loans compared to $ 91 million of provision recapture during 2014 ."
+    }
+  },
+  {
+    "question": "what was the average backlog at year-end from 2013 to 2015",
+    "answer": "197000",
+    "program_re": "divide(add(add(17400, 20300), 21400), const_3)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "",
+        "2015",
+        "2014",
+        "2013"
+      ],
+      [
+        "net sales",
+        "$ 9105",
+        "$ 9202",
+        "$ 9288"
+      ],
+      [
+        "operating profit",
+        "1171",
+        "1187",
+        "1198"
+      ],
+      [
+        "operating margins",
+        "12.9% ( 12.9 % )",
+        "12.9% ( 12.9 % )",
+        "12.9% ( 12.9 % )"
+      ],
+      [
+        "backlog at year-end",
+        "$ 17400",
+        "$ 20300",
+        "$ 21400"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_4": "the backlog at year-end of 2015 is $ 17400 ; the backlog at year-end of 2014 is $ 20300 ; the backlog at year-end of 2013 is $ 21400 ;"
+    }
+  },
+  {
+    "question": "what percentage of the total oil and gas mmboe comes from canada?",
+    "answer": "24.69%",
+    "program_re": "multiply(divide(60, 243), const_100)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "",
+        "oil ( mmbbls )",
+        "gas ( bcf )",
+        "ngls ( mmbbls )",
+        "total ( mmboe )"
+      ],
+      [
+        "u.s . onshore",
+        "12",
+        "626",
+        "23",
+        "140"
+      ],
+      [
+        "u.s . offshore",
+        "8",
+        "68",
+        "1",
+        "20"
+      ],
+      [
+        "canada",
+        "23",
+        "198",
+        "4",
+        "60"
+      ],
+      [
+        "international",
+        "23",
+        "2",
+        "2014",
+        "23"
+      ],
+      [
+        "total",
+        "66",
+        "894",
+        "28",
+        "243"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_3": "the canada of oil ( mmbbls ) is 23 ; the canada of gas ( bcf ) is 198 ; the canada of ngls ( mmbbls ) is 4 ; the canada of total ( mmboe ) is 60 ;",
+      "table_5": "the total of oil ( mmbbls ) is 66 ; the total of gas ( bcf ) is 894 ; the total of ngls ( mmbbls ) is 28 ; the total of total ( mmboe ) is 243 ;",
+      "text_34": "oil gas ngls total ( mmbbls ) ( bcf ) ( mmbbls ) ( mmboe ) ."
+    }
+  },
+  {
+    "question": "what was the average net revenue between 2016 and 2017 in millions",
+    "answer": "1521.55",
+    "program_re": "divide(add(1520.5, 1522.6), const_2)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "",
+        "amount ( in millions )"
+      ],
+      [
+        "2016 net revenue",
+        "$ 1520.5"
+      ],
+      [
+        "retail electric price",
+        "33.8"
+      ],
+      [
+        "opportunity sales",
+        "5.6"
+      ],
+      [
+        "asset retirement obligation",
+        "-14.8 ( 14.8 )"
+      ],
+      [
+        "volume/weather",
+        "-29.0 ( 29.0 )"
+      ],
+      [
+        "other",
+        "6.5"
+      ],
+      [
+        "2017 net revenue",
+        "$ 1522.6"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_1": "the 2016 net revenue of amount ( in millions ) is $ 1520.5 ;",
+      "table_7": "the 2017 net revenue of amount ( in millions ) is $ 1522.6 ;"
+    }
+  },
+  {
+    "question": "what is the average future minimum annual rental payment for the next five years?",
+    "answer": "4441",
+    "program_re": "divide(add(add(add(add(3144, 3160), 3200), 2768), 9934), const_5)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "2008",
+        "$ 4935"
+      ],
+      [
+        "2009",
+        "3144"
+      ],
+      [
+        "2010",
+        "3160"
+      ],
+      [
+        "2011",
+        "3200"
+      ],
+      [
+        "2012",
+        "2768"
+      ],
+      [
+        "thereafter",
+        "9934"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_1": "2008 the 2009 of $ 4935 is 3144 ;",
+      "table_2": "2008 the 2010 of $ 4935 is 3160 ;",
+      "table_3": "2008 the 2011 of $ 4935 is 3200 ;",
+      "table_4": "2008 the 2012 of $ 4935 is 2768 ;",
+      "text_1": "notes to consolidated financial statements 2014 ( continued ) for the years ended december 31 , 2007 and 2006 , five month period ended december 31 , 2005 , and year ended july 31 , 2005 ( amounts in thousands , except share and per share amounts ) aggregate future minimum annual rental payments for the next five years and thereafter under non-cancellable operating leases ( including facilities and equipment ) as of december 31 , 2007 are: .",
+      "table_5": "2008 the thereafter of $ 4935 is 9934 ;"
+    }
+  },
+  {
+    "question": "assuming the same trend as in 2011 , what would total stock-based compensation cost be for 2012?",
+    "answer": "",
+    "program_re": "multiply(divide(36, 52), 36)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "( millions )",
+        "2011",
+        "2010",
+        "2009"
+      ],
+      [
+        "royalty income",
+        "55",
+        "58",
+        "45"
+      ],
+      [
+        "share of net earnings ( loss ) of equity affiliates ( see note 5 )",
+        "37",
+        "45",
+        "-5 ( 5 )"
+      ],
+      [
+        "gain on sale of assets",
+        "12",
+        "8",
+        "36"
+      ],
+      [
+        "other",
+        "73",
+        "69",
+        "74"
+      ],
+      [
+        "total",
+        "$ 177",
+        "$ 180",
+        "$ 150"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "text_29": "total stock-based compensation cost was $ 36 million , $ 52 million and $ 34 million in 2011 , 2010 and 2009 , respectively ."
+    }
+  },
+  {
+    "question": "what is the percent change in quarterly cash dividend for the period ended march 31 2002 to the period ended march 31 2003?",
+    "answer": "1.11%",
+    "program_re": "multiply(divide(subtract(.455, .450), .450), const_100)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "quarter ended",
+        "2002 high",
+        "2002 low",
+        "2002 dividend",
+        "2002 high",
+        "2002 low",
+        "dividend"
+      ],
+      [
+        "december 31",
+        "$ 25.84",
+        "$ 21.50",
+        "$ .455",
+        "$ 24.80",
+        "$ 22.00",
+        "$ .45"
+      ],
+      [
+        "september 30",
+        "28.88",
+        "21.40",
+        ".455",
+        "26.17",
+        "21.60",
+        ".45"
+      ],
+      [
+        "june 30",
+        "28.95",
+        "25.46",
+        ".450",
+        "24.99",
+        "22.00",
+        ".43"
+      ],
+      [
+        "march 31",
+        "26.50",
+        "22.92",
+        ".450",
+        "25.44",
+        "21.85",
+        ".43"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_4": "quarter ended the march 31 of 2002 high is 26.50 ; the march 31 of 2002 low is 22.92 ; the march 31 of 2002 dividend is .450 ; the march 31 of 2002 high is 25.44 ; the march 31 of 2002 low is 21.85 ; the march 31 of dividend is .43 ;",
+      "text_3": "on january 29 , 2003 , the company declared a quarterly cash dividend of $ .455 per share , payable on february 28 , 2003 , to common shareholders of record on february 14 , 2003. ."
+    }
+  },
+  {
+    "question": "what portion of the adjusted consolidated cash flow for the twelve months ended december 31 , 2005 is related to non-tower cash flow?",
+    "answer": "-5.8%",
+    "program_re": "divide(multiply(30584, const_m1), 531822)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "tower cash flow for the three months ended december 31 2005",
+        "$ 139590"
+      ],
+      [
+        "consolidated cash flow for the twelve months ended december 31 2005",
+        "$ 498266"
+      ],
+      [
+        "less : tower cash flow for the twelve months ended december 31 2005",
+        "-524804 ( 524804 )"
+      ],
+      [
+        "plus : four times tower cash flow for the three months ended december 31 2005",
+        "558360"
+      ],
+      [
+        "adjusted consolidated cash flow for the twelve months ended december 31 2005",
+        "$ 531822"
+      ],
+      [
+        "non-tower cash flow for the twelve months ended december 31 2005",
+        "$ -30584 ( 30584 )"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "text_4": "we have historically accounted for share-based payments to employees under apb no .",
+      "text_5": "25 2019s intrinsic value method .",
+      "table_5": "tower cash flow for the three months ended december 31 2005 the non-tower cash flow for the twelve months ended december 31 2005 of $ 139590 is $ -30584 ( 30584 ) ;",
+      "table_4": "tower cash flow for the three months ended december 31 2005 the adjusted consolidated cash flow for the twelve months ended december 31 2005 of $ 139590 is $ 531822 ;"
+    }
+  },
+  {
+    "question": "north american consumer packaging net sales where what percentage of consumer packaging sales in 2008?",
+    "answer": "78%",
+    "program_re": "divide(multiply(2.5, const_1000), 3195)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "in millions",
+        "2009",
+        "2008",
+        "2007"
+      ],
+      [
+        "sales",
+        "$ 3060",
+        "$ 3195",
+        "$ 3015"
+      ],
+      [
+        "operating profit",
+        "433",
+        "17",
+        "112"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_1": "in millions the sales of 2009 is $ 3060 ; the sales of 2008 is $ 3195 ; the sales of 2007 is $ 3015 ;",
+      "text_25": "north american consumer packaging net sales were $ 2.2 billion compared with $ 2.5 billion in 2008 and $ 2.4 billion in 2007 ."
+    }
+  },
+  {
+    "question": "what was the average rental expense , net of sublease income from 2004 to 2006 in millions",
+    "answer": "232",
+    "program_re": "divide(add(add(add(241, 250), 205), const_3), const_2)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "( in millions )",
+        "payments due by period ( 1 ) total",
+        "payments due by period ( 1 ) 2007",
+        "payments due by period ( 1 ) 2008",
+        "payments due by period ( 1 ) 2009",
+        "payments due by period ( 1 ) 2010",
+        "payments due by period ( 1 ) 2011",
+        "payments due by period ( 1 ) thereafter"
+      ],
+      [
+        "long-term debt obligations",
+        "$ 4134",
+        "$ 1340",
+        "$ 198",
+        "$ 4",
+        "$ 534",
+        "$ 607",
+        "$ 1451"
+      ],
+      [
+        "lease obligations",
+        "2328",
+        "351",
+        "281",
+        "209",
+        "178",
+        "158",
+        "1151"
+      ],
+      [
+        "purchase obligations",
+        "1035",
+        "326",
+        "120",
+        "26",
+        "12",
+        "12",
+        "539"
+      ],
+      [
+        "total contractual obligations",
+        "$ 7497",
+        "$ 2017",
+        "$ 599",
+        "$ 239",
+        "$ 724",
+        "$ 777",
+        "$ 3141"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "text_12": "rental expense , net of sublease income , was $ 241 million in 2006 , $ 250 million in 2005 and $ 205 million in 2004 ."
+    }
+  },
+  {
+    "question": "what was the average high and low stock price for the second quarter of 2002?",
+    "answer": "6.36",
+    "program_re": "divide(add(9.17, 3.55), const_2)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "2002 first quarter",
+        "high $ 17.84",
+        "low $ 4.11",
+        "2001 first quarter",
+        "high $ 60.15",
+        "low $ 41.30"
+      ],
+      [
+        "second quarter",
+        "9.17",
+        "3.55",
+        "second quarter",
+        "52.25",
+        "39.95"
+      ],
+      [
+        "third quarter",
+        "4.61",
+        "1.56",
+        "third quarter",
+        "44.50",
+        "12.00"
+      ],
+      [
+        "fourth quarter",
+        "3.57",
+        "0.95",
+        "fourth quarter",
+        "17.80",
+        "11.60"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_1": "2002 first quarter the second quarter of high $ 17.84 is 9.17 ; the second quarter of low $ 4.11 is 3.55 ; the second quarter of 2001 first quarter is second quarter ; the second quarter of high $ 60.15 is 52.25 ; the second quarter of low $ 41.30 is 39.95 ;"
+    }
+  },
+  {
+    "question": "assuming a 5% ( 5 % ) rate of return , what would the earnings be ( in millions ) on 2008 total adjusted average assets?",
+    "answer": "98345",
+    "program_re": "multiply(divide(5, const_100), 1966895)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "december 31 ( in millions )",
+        "2008",
+        "2007"
+      ],
+      [
+        "total tier 1capital ( a )",
+        "$ 136104",
+        "$ 88746"
+      ],
+      [
+        "total tier 2 capital",
+        "48616",
+        "43496"
+      ],
+      [
+        "total capital",
+        "$ 184720",
+        "$ 132242"
+      ],
+      [
+        "risk-weighted assets",
+        "$ 1244659",
+        "$ 1051879"
+      ],
+      [
+        "total adjusted average assets",
+        "1966895",
+        "1473541"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_5": "december 31 ( in millions ) the total adjusted average assets of 2008 is 1966895 ; the total adjusted average assets of 2007 is 1473541 ;"
+    }
+  },
+  {
+    "question": "considering the fair market value of plan assets in 2018 , what is its estimated return for 10 years?",
+    "answer": "8327.41",
+    "program_re": "multiply(4273.1, exp(add(const_1, divide(6.9%, const_100)), 10))",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "",
+        "2018",
+        "2017",
+        "2016"
+      ],
+      [
+        "pension expense 2013 continuing operations",
+        "$ 91.8",
+        "$ 72.0",
+        "$ 55.8"
+      ],
+      [
+        "settlements termination benefits and curtailments ( included above )",
+        "48.9",
+        "15.0",
+        "6.0"
+      ],
+      [
+        "weighted average discount rate 2013 service cost",
+        "3.2% ( 3.2 % )",
+        "2.9% ( 2.9 % )",
+        "4.1% ( 4.1 % )"
+      ],
+      [
+        "weighted average discount rate 2013 interest cost",
+        "2.9% ( 2.9 % )",
+        "2.5% ( 2.5 % )",
+        "3.4% ( 3.4 % )"
+      ],
+      [
+        "weighted average expected rate of return on plan assets",
+        "6.9% ( 6.9 % )",
+        "7.4% ( 7.4 % )",
+        "7.5% ( 7.5 % )"
+      ],
+      [
+        "weighted average expected rate of compensation increase",
+        "3.5% ( 3.5 % )",
+        "3.5% ( 3.5 % )",
+        "3.5% ( 3.5 % )"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_5": "the weighted average expected rate of return on plan assets of 2018 is 6.9% ( 6.9 % ) ; the weighted average expected rate of return on plan assets of 2017 is 7.4% ( 7.4 % ) ; the weighted average expected rate of return on plan assets of 2016 is 7.5% ( 7.5 % ) ;",
+      "text_21": "the fair market value of plan assets for our defined benefit pension plans as of the 30 september 2018 measurement date decreased to $ 4273.1 from $ 4409.2 at the end of fiscal year 2017 ."
+    }
+  },
+  {
+    "question": "what percent of assets acquired by the acquisition are non-tangible assets?",
+    "answer": "96%",
+    "program_re": "divide(add(add(13536, 4091), 1031), 19427)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "",
+        "total"
+      ],
+      [
+        "goodwill",
+        "$ 13536"
+      ],
+      [
+        "customer-related intangible assets",
+        "4091"
+      ],
+      [
+        "contract-based intangible assets",
+        "1031"
+      ],
+      [
+        "property and equipment",
+        "267"
+      ],
+      [
+        "other current assets",
+        "502"
+      ],
+      [
+        "total assets acquired",
+        "19427"
+      ],
+      [
+        "current liabilities",
+        "-2347 ( 2347 )"
+      ],
+      [
+        "minority interest in equity of subsidiary ( at historical cost )",
+        "-486 ( 486 )"
+      ],
+      [
+        "net assets acquired",
+        "$ 16594"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_1": "the goodwill of total is $ 13536 ;",
+      "table_2": "the customer-related intangible assets of total is 4091 ;",
+      "table_3": "the contract-based intangible assets of total is 1031 ;",
+      "table_4": "the property and equipment of total is 267 ;",
+      "table_5": "the other current assets of total is 502 ;",
+      "table_6": "the total assets acquired of total is 19427 ;",
+      "text_13": "the following table summarizes the preliminary purchase price allocations of all these fiscal 2008 business acquisitions ( in thousands ) : ."
+    }
+  },
+  {
+    "question": "what was the average revenue from discontinued operations in 2013 and 2011 , in millions?",
+    "answer": "738.5",
+    "program_re": "divide(add(503, 974), const_2)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "",
+        "as of december 31 2013 ( in thousands )"
+      ],
+      [
+        "current assets from discontinued operations",
+        "$ 68239"
+      ],
+      [
+        "noncurrent assets from discontinued operations",
+        "9965"
+      ],
+      [
+        "current liabilities from discontinued operations",
+        "-49471 ( 49471 )"
+      ],
+      [
+        "long-term liabilities from discontinued operations",
+        "-19804 ( 19804 )"
+      ],
+      [
+        "net assets from discontinued operations",
+        "$ 8929"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "text_12": "during the years ended december 31 , 2013 , 2012 and 2011 , the revenue from our discontinued operations was $ 503 million , $ 1.085 billion and $ 974 million , respectively ."
+    }
+  },
+  {
+    "question": "what percent of assets acquired by the acquisition are non-tangible assets?",
+    "answer": "96%",
+    "program_re": "divide(add(add(13536, 4091), 1031), 19427)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "",
+        "total"
+      ],
+      [
+        "goodwill",
+        "$ 13536"
+      ],
+      [
+        "customer-related intangible assets",
+        "4091"
+      ],
+      [
+        "contract-based intangible assets",
+        "1031"
+      ],
+      [
+        "property and equipment",
+        "267"
+      ],
+      [
+        "other current assets",
+        "502"
+      ],
+      [
+        "total assets acquired",
+        "19427"
+      ],
+      [
+        "current liabilities",
+        "-2347 ( 2347 )"
+      ],
+      [
+        "minority interest in equity of subsidiary ( at historical cost )",
+        "-486 ( 486 )"
+      ],
+      [
+        "net assets acquired",
+        "$ 16594"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_1": "the goodwill of total is $ 13536 ;",
+      "table_2": "the customer-related intangible assets of total is 4091 ;",
+      "table_3": "the contract-based intangible assets of total is 1031 ;",
+      "table_4": "the property and equipment of total is 267 ;",
+      "table_5": "the other current assets of total is 502 ;",
+      "table_6": "the total assets acquired of total is 19427 ;",
+      "text_13": "the following table summarizes the preliminary purchase price allocations of all these fiscal 2008 business acquisitions ( in thousands ) : ."
+    }
+  },
+  {
+    "question": "what was the percentage change in the company recognized tax-related interest and penalties in 2011 .",
+    "answer": "15.8%",
+    "program_re": "divide(3, add(16, 3))",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "( millions )",
+        "2013",
+        "2012"
+      ],
+      [
+        "foreign currency exchange contracts",
+        "$ 517",
+        "$ 570"
+      ],
+      [
+        "interest rate contracts",
+        "2400",
+        "2150"
+      ],
+      [
+        "commodity contracts",
+        "361",
+        "320"
+      ],
+      [
+        "total",
+        "$ 3278",
+        "$ 3040"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "text_0": "december 31 , 2011 , the company recognized a decrease of $ 3 million of tax-related interest and penalties and had approximately $ 16 million accrued at december 31 , 2011 ."
+    }
+  },
+  {
+    "question": "what is the percentage of allowance of the company's purchased distressed loan portfolio at december 31 , 2010?",
+    "answer": "16%",
+    "program_re": "divide(77, add(392, 77))",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "in millions of dollars",
+        "accretable yield",
+        "carrying amount of loan receivable",
+        "allowance"
+      ],
+      [
+        "beginning balance",
+        "$ 27",
+        "$ 920",
+        "$ 95"
+      ],
+      [
+        "purchases ( 1 )",
+        "1",
+        "130",
+        "2014"
+      ],
+      [
+        "disposals/payments received",
+        "-11 ( 11 )",
+        "-594 ( 594 )",
+        "2014"
+      ],
+      [
+        "accretion",
+        "-44 ( 44 )",
+        "44",
+        "2014"
+      ],
+      [
+        "builds ( reductions ) to the allowance",
+        "128",
+        "2014",
+        "-18 ( 18 )"
+      ],
+      [
+        "increase to expected cash flows",
+        "-2 ( 2 )",
+        "19",
+        "2014"
+      ],
+      [
+        "fx/other",
+        "17",
+        "-50 ( 50 )",
+        "2014"
+      ],
+      [
+        "balance at december 31 2010 ( 2 )",
+        "$ 116",
+        "$ 469",
+        "$ 77"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "text_6": "the carrying amount of the company 2019s purchased distressed loan portfolio at december 31 , 2010 was $ 392 million , net of an allowance of $ 77 million as of december 31 , 2010 ."
+    }
+  },
+  {
+    "question": "what were average backlog at year-end for mfc from 2013 to 2015 in millions?",
+    "answer": "14367",
+    "program_re": "divide(add(add(15500, 13300), 14300), const_3)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "",
+        "2015",
+        "2014",
+        "2013"
+      ],
+      [
+        "net sales",
+        "$ 6770",
+        "$ 7092",
+        "$ 6795"
+      ],
+      [
+        "operating profit",
+        "1282",
+        "1344",
+        "1379"
+      ],
+      [
+        "operating margins",
+        "18.9% ( 18.9 % )",
+        "19.0% ( 19.0 % )",
+        "20.3% ( 20.3 % )"
+      ],
+      [
+        "backlog at year-end",
+        "$ 15500",
+        "$ 13300",
+        "$ 14300"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_4": "the backlog at year-end of 2015 is $ 15500 ; the backlog at year-end of 2014 is $ 13300 ; the backlog at year-end of 2013 is $ 14300 ;"
+    }
+  },
+  {
+    "question": "what was the average price per share from november to december?",
+    "answer": "3.61",
+    "program_re": "divide(add(3.24, 3.98), const_2)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "",
+        "total number of shares purchased",
+        "average price paid per share2",
+        "total number of shares purchased as part of publicly announced plans or programs",
+        "maximum number ofshares that may yet be purchased under the plans or programs"
+      ],
+      [
+        "october 1-31",
+        "29704",
+        "$ 5.99",
+        "2014",
+        "2014"
+      ],
+      [
+        "november 1-30",
+        "4468",
+        "$ 3.24",
+        "2014",
+        "2014"
+      ],
+      [
+        "december 1-31",
+        "12850",
+        "$ 3.98",
+        "2014",
+        "2014"
+      ],
+      [
+        "total1",
+        "47022",
+        "$ 5.18",
+        "2014",
+        "2014"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_2": "the november 1-30 of total number of shares purchased is 4468 ; the november 1-30 of average price paid per share2 is $ 3.24 ; the november 1-30 of total number of shares purchased as part of publicly announced plans or programs is 2014 ; the november 1-30 of maximum number ofshares that may yet be purchased under the plans or programs is 2014 ;",
+      "table_3": "the december 1-31 of total number of shares purchased is 12850 ; the december 1-31 of average price paid per share2 is $ 3.98 ; the december 1-31 of total number of shares purchased as part of publicly announced plans or programs is 2014 ; the december 1-31 of maximum number ofshares that may yet be purchased under the plans or programs is 2014 ;",
+      "text_0": "repurchase of equity securities the following table provides information regarding our purchases of equity securities during the fourth quarter of 2008 : number of shares purchased average paid per share2 total number of shares purchased as part of publicly announced plans or programs maximum number of shares that may yet be purchased under the plans or programs ."
+    }
+  },
+  {
+    "question": "including the shares repurchased under the december 2007 repo agreement , what was the total authorized shares ( in millions ) eligible for repurchase under the january 23 , 2008 repurchase authorization?\\\\n\\\\n",
+    "answer": "12.675",
+    "program_re": "add(divide(675000, const_1000000), 12)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "",
+        "total number of shares purchased ( a )",
+        "average pricepaid per share",
+        "total number of shares purchased as part of publicly announced plans or programs",
+        "maximum number of shares that may yet be purchased under the plans or programs ( b )"
+      ],
+      [
+        "october 1 to october 28 2007",
+        "705292",
+        "$ 53.53",
+        "705292",
+        "4904824"
+      ],
+      [
+        "october 29 to november 25 2007",
+        "431170",
+        "$ 48.11",
+        "431170",
+        "4473654"
+      ],
+      [
+        "november 26 to december 31 2007",
+        "8310 ( c )",
+        "$ 44.99",
+        "8310",
+        "4465344"
+      ],
+      [
+        "total",
+        "1144772",
+        "$ 51.42",
+        "1144772",
+        ""
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "text_16": "on january 23 , 2008 , ball's board of directors authorized the repurchase by the company of up to a total of 12 million shares of its common stock .",
+      "text_18": "( c ) does not include 675000 shares under a forward share repurchase agreement entered into in december 2007 and settled on january 7 , 2008 , for approximately $ 31 million ."
+    }
+  },
+  {
+    "question": "what were average proportional recoverable environmental capital expenditures for the years december 31 , 2015 , 2014 and 2013 , in millions?",
+    "answer": "159.3",
+    "program_re": "divide(add(110, add(205, 163)), const_3)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "calculation of proportional free cash flow ( in millions )",
+        "2015",
+        "2014",
+        "2013",
+        "2015/2014 change",
+        "2014/2013 change"
+      ],
+      [
+        "net cash provided by operating activities",
+        "$ 2134",
+        "$ 1791",
+        "$ 2715",
+        "$ 343",
+        "$ -924 ( 924 )"
+      ],
+      [
+        "add : capital expenditures related to service concession assets ( 1 )",
+        "165",
+        "2014",
+        "2014",
+        "165",
+        "2014"
+      ],
+      [
+        "adjusted operating cash flow",
+        "2299",
+        "1791",
+        "2715",
+        "508",
+        "-924 ( 924 )"
+      ],
+      [
+        "less : proportional adjustment factor on operating cash activities ( 2 ) ( 3 )",
+        "-558 ( 558 )",
+        "-359 ( 359 )",
+        "-834 ( 834 )",
+        "-199 ( 199 )",
+        "475"
+      ],
+      [
+        "proportional adjusted operating cash flow",
+        "1741",
+        "1432",
+        "1881",
+        "309",
+        "-449 ( 449 )"
+      ],
+      [
+        "less : proportional maintenance capital expenditures net of reinsurance proceeds ( 2 )",
+        "-449 ( 449 )",
+        "-485 ( 485 )",
+        "-535 ( 535 )",
+        "36",
+        "50"
+      ],
+      [
+        "less : proportional non-recoverable environmental capital expenditures ( 2 ) ( 4 )",
+        "-51 ( 51 )",
+        "-56 ( 56 )",
+        "-75 ( 75 )",
+        "5",
+        "19"
+      ],
+      [
+        "proportional free cash flow",
+        "$ 1241",
+        "$ 891",
+        "$ 1271",
+        "$ 350",
+        "$ -380 ( 380 )"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "text_26": "( 4 ) excludes ipl's proportional recoverable environmental capital expenditures of $ 205 million , $ 163 million and $ 110 million for the years december 31 , 2015 , 2014 and 2013 , respectively. ."
+    }
+  },
+  {
+    "question": "what is the total return is $ 100000 are invested in s&p500 on january 1st , 2015 and sold at the end of 2016?",
+    "answer": "1877",
+    "program_re": "multiply(divide(100000, const_100), subtract(129.05, 110.28))",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "",
+        "12/28/2013",
+        "1/3/2015",
+        "1/2/2016",
+        "12/31/2016",
+        "12/30/2017",
+        "12/29/2018"
+      ],
+      [
+        "cadence design systems inc .",
+        "$ 100.00",
+        "$ 135.18",
+        "$ 149.39",
+        "$ 181.05",
+        "$ 300.22",
+        "$ 311.13"
+      ],
+      [
+        "nasdaq composite",
+        "100.00",
+        "112.60",
+        "113.64",
+        "133.19",
+        "172.11",
+        "165.84"
+      ],
+      [
+        "s&p 500",
+        "100.00",
+        "110.28",
+        "109.54",
+        "129.05",
+        "157.22",
+        "150.33"
+      ],
+      [
+        "s&p 500 information technology",
+        "100.00",
+        "115.49",
+        "121.08",
+        "144.85",
+        "201.10",
+        "200.52"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_3": "the s&p 500 of 12/28/2013 is 100.00 ; the s&p 500 of 1/3/2015 is 110.28 ; the s&p 500 of 1/2/2016 is 109.54 ; the s&p 500 of 12/31/2016 is 129.05 ; the s&p 500 of 12/30/2017 is 157.22 ; the s&p 500 of 12/29/2018 is 150.33 ;"
+    }
+  },
+  {
+    "question": "based upon outstanding balances at december 31 , 2011 what was the percent of the principal and interest product of the combined products",
+    "answer": "23%",
+    "program_re": "divide(266, add(904, 266))",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "in millions",
+        "interest only product",
+        "principal and interest product"
+      ],
+      [
+        "2012",
+        "$ 904",
+        "$ 266"
+      ],
+      [
+        "2013",
+        "1211",
+        "331"
+      ],
+      [
+        "2014",
+        "2043",
+        "598"
+      ],
+      [
+        "2015",
+        "1988",
+        "820"
+      ],
+      [
+        "2016 and thereafter",
+        "6961",
+        "5601"
+      ],
+      [
+        "total ( a )",
+        "$ 13107",
+        "$ 7616"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_1": "in millions the 2012 of interest only product is $ 904 ; the 2012 of principal and interest product is $ 266 ;"
+    }
+  },
+  {
+    "question": "what is the average of the afs investment securities during the years 2016-2018?",
+    "answer": "221866",
+    "program_re": "divide(add(add(228681, 200247), 236670), const_3)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "as of or for the year ended december 31 ( in millions )",
+        "2018",
+        "2017",
+        "2016"
+      ],
+      [
+        "investment securities gains/ ( losses )",
+        "$ -395 ( 395 )",
+        "$ -78 ( 78 )",
+        "$ 132"
+      ],
+      [
+        "available-for-sale ( 201cafs 201d ) investment securities ( average )",
+        "203449",
+        "219345",
+        "226892"
+      ],
+      [
+        "held-to-maturity ( 201chtm 201d ) investment securities ( average )",
+        "31747",
+        "47927",
+        "51358"
+      ],
+      [
+        "investment securities portfolio ( average )",
+        "235197",
+        "267272",
+        "278250"
+      ],
+      [
+        "afs investment securities ( period-end )",
+        "228681",
+        "200247",
+        "236670"
+      ],
+      [
+        "htm investment securities ( period-end )",
+        "31434",
+        "47733",
+        "50168"
+      ],
+      [
+        "investment securities portfolio ( period 2013end )",
+        "260115",
+        "247980",
+        "286838"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_5": "as of or for the year ended december 31 ( in millions ) the afs investment securities ( period-end ) of 2018 is 228681 ; the afs investment securities ( period-end ) of 2017 is 200247 ; the afs investment securities ( period-end ) of 2016 is 236670 ;"
+    }
+  },
+  {
+    "question": "what is the average price per share of the company 2019s common stock in the third quarter of 2016?",
+    "answer": "30",
+    "program_re": "divide(add(32.91, 27.09), const_2)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "quarter",
+        "2016 high",
+        "2016 low",
+        "2016 dividend",
+        "2016 high",
+        "2016 low",
+        "dividend"
+      ],
+      [
+        "first",
+        "$ 30.66",
+        "$ 18.42",
+        "$ 0.09",
+        "$ 51.30",
+        "$ 37.95",
+        "$ 0.09"
+      ],
+      [
+        "second",
+        "34.50",
+        "26.34",
+        "0.09",
+        "42.87",
+        "33.45",
+        "0.09"
+      ],
+      [
+        "third",
+        "32.91",
+        "27.09",
+        "0.09",
+        "33.69",
+        "23.91",
+        "0.09"
+      ],
+      [
+        "fourth ( separation occurred on november 1 2016 )",
+        "32.10",
+        "16.75",
+        "0.09",
+        "33.54",
+        "23.43",
+        "0.09"
+      ],
+      [
+        "year",
+        "$ 34.50",
+        "$ 16.75",
+        "$ 0.36",
+        "$ 51.30",
+        "$ 23.43",
+        "$ 0.36"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_3": "quarter the third of 2016 high is 32.91 ; the third of 2016 low is 27.09 ; the third of 2016 dividend is 0.09 ; the third of 2016 high is 33.69 ; the third of 2016 low is 23.91 ; the third of dividend is 0.09 ;",
+      "text_11": "the following table sets forth , for the periods indicated , the high and low sales prices and quarterly dividend amounts per share of the company 2019s common stock as reported on the new york stock exchange , adjusted to take into account the reverse stock split effected on october 6 , 2016 ."
+    }
+  },
+  {
+    "question": "what is the percentage increase from 2014-2015 in total cash flow data?",
+    "answer": "2.04%",
+    "program_re": "multiply(divide(subtract(848.2, 831.2), 831.2), const_100)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "cash flow data",
+        "years ended december 31 , 2015",
+        "years ended december 31 , 2014",
+        "years ended december 31 , 2013"
+      ],
+      [
+        "net income adjusted to reconcile net income to net cashprovided by operating activities1",
+        "$ 848.2",
+        "$ 831.2",
+        "$ 598.4"
+      ],
+      [
+        "net cash used in working capital2",
+        "-117.5 ( 117.5 )",
+        "-131.1 ( 131.1 )",
+        "-9.6 ( 9.6 )"
+      ],
+      [
+        "changes in other non-current assets and liabilities using cash",
+        "-56.7 ( 56.7 )",
+        "-30.6 ( 30.6 )",
+        "4.1"
+      ],
+      [
+        "net cash provided by operating activities",
+        "$ 674.0",
+        "$ 669.5",
+        "$ 592.9"
+      ],
+      [
+        "net cash used in investing activities",
+        "-202.8 ( 202.8 )",
+        "-200.8 ( 200.8 )",
+        "-224.5 ( 224.5 )"
+      ],
+      [
+        "net cash used in financing activities",
+        "-472.8 ( 472.8 )",
+        "-343.9 ( 343.9 )",
+        "-1212.3 ( 1212.3 )"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_1": "cash flow data the net income adjusted to reconcile net income to net cashprovided by operating activities1 of years ended december 31 , 2015 is $ 848.2 ; the net income adjusted to reconcile net income to net cashprovided by operating activities1 of years ended december 31 , 2014 is $ 831.2 ; the net income adjusted to reconcile net income to net cashprovided by operating activities1 of years ended december 31 , 2013 is $ 598.4 ;",
+      "text_0": "management 2019s discussion and analysis of financial condition and results of operations 2013 ( continued ) ( amounts in millions , except per share amounts ) liquidity and capital resources cash flow overview the following tables summarize key financial data relating to our liquidity , capital resources and uses of capital. ."
+    }
+  },
+  {
+    "question": "what was the ratio of the debts to the assets in the purchase transaction",
+    "answer": "17.8%",
+    "program_re": "divide(add(5829, 148527), 867558)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "operating rental properties",
+        "$ 602011"
+      ],
+      [
+        "land held for development",
+        "154300"
+      ],
+      [
+        "total real estate investments",
+        "756311"
+      ],
+      [
+        "other assets",
+        "10478"
+      ],
+      [
+        "lease related intangible assets",
+        "86047"
+      ],
+      [
+        "goodwill",
+        "14722"
+      ],
+      [
+        "total assets acquired",
+        "867558"
+      ],
+      [
+        "debt assumed",
+        "-148527 ( 148527 )"
+      ],
+      [
+        "other liabilities assumed",
+        "-5829 ( 5829 )"
+      ],
+      [
+        "purchase price net of assumed liabilities",
+        "$ 713202"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_6": "operating rental properties the total assets acquired of $ 602011 is 867558 ;",
+      "table_7": "operating rental properties the debt assumed of $ 602011 is -148527 ( 148527 ) ;",
+      "table_8": "operating rental properties the other liabilities assumed of $ 602011 is -5829 ( 5829 ) ;"
+    }
+  },
+  {
+    "question": "what is the percent change in operating revenues from 2001 to 2002?",
+    "answer": "192%",
+    "program_re": "divide(subtract(multiply(1.2, const_1000), 411.0), 411.0)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "",
+        "2002",
+        "2001",
+        "2000"
+      ],
+      [
+        "net mw in operation at december 31",
+        "3955",
+        "3445",
+        "2475"
+      ],
+      [
+        "generation in gwh for the year",
+        "29953",
+        "22614",
+        "7171"
+      ],
+      [
+        "capacity factor for the year",
+        "93% ( 93 % )",
+        "93% ( 93 % )",
+        "94% ( 94 % )"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "text_7": "following are key performance measures for non-utility nuclear: .",
+      "text_8": "2002 compared to 2001 the following fluctuations in the results of operations for non-utility nuclear in 2002 were primarily caused by the acquisitions of indian point 2 and vermont yankee ( except as otherwise noted ) : fffd operating revenues increased $ 411.0 million to $ 1.2 billion ; fffd other operation and maintenance expenses increased $ 201.8 million to $ 596.3 million ; fffd depreciation and amortization expenses increased $ 25.1 million to $ 42.8 million ; fffd fuel expenses increased $ 29.4 million to $ 105.2 million ; fffd nuclear refueling outage expenses increased $ 23.9 million to $ 46.8 million , which was due primarily to a ."
+    }
+  },
+  {
+    "question": "what amount of long-term debt is due in the next 24 months for entergy corporation as of december 31 , 2013 , in millions?",
+    "answer": "1495.9",
+    "program_re": "divide(add(385373, 1110566), const_1000)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "",
+        "amount ( in thousands )"
+      ],
+      [
+        "2014",
+        "$ 385373"
+      ],
+      [
+        "2015",
+        "$ 1110566"
+      ],
+      [
+        "2016",
+        "$ 270852"
+      ],
+      [
+        "2017",
+        "$ 766801"
+      ],
+      [
+        "2018",
+        "$ 1324616"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_1": "the 2014 of amount ( in thousands ) is $ 385373 ;",
+      "table_2": "the 2015 of amount ( in thousands ) is $ 1110566 ;"
+    }
+  },
+  {
+    "question": "what is the total percentage decrease in future contingent acquisition obligations payable in cash from 2009-2013?",
+    "answer": "1.56%",
+    "program_re": "multiply(divide(subtract(76.7, 75.6), 76.7), const_100)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "thereafter",
+        "total"
+      ],
+      [
+        "deferred acquisition payments",
+        "$ 67.5",
+        "$ 32.1",
+        "$ 30.1",
+        "$ 4.5",
+        "$ 5.7",
+        "$ 2014",
+        "$ 139.9"
+      ],
+      [
+        "put and call options with affiliates1",
+        "11.8",
+        "34.3",
+        "73.6",
+        "70.8",
+        "70.2",
+        "2.2",
+        "262.9"
+      ],
+      [
+        "total contingent acquisition payments",
+        "79.3",
+        "66.4",
+        "103.7",
+        "75.3",
+        "75.9",
+        "2.2",
+        "402.8"
+      ],
+      [
+        "less cash compensation expense included above",
+        "2.6",
+        "1.3",
+        "0.7",
+        "0.7",
+        "0.3",
+        "2014",
+        "5.6"
+      ],
+      [
+        "total",
+        "$ 76.7",
+        "$ 65.1",
+        "$ 103.0",
+        "$ 74.6",
+        "$ 75.6",
+        "$ 2.2",
+        "$ 397.2"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_5": "the total of 2009 is $ 76.7 ; the total of 2010 is $ 65.1 ; the total of 2011 is $ 103.0 ; the total of 2012 is $ 74.6 ; the total of 2013 is $ 75.6 ; the total of thereafter is $ 2.2 ; the total of total is $ 397.2 ;",
+      "text_18": "as of december 31 , 2008 , our estimated future contingent acquisition obligations payable in cash are as follows: ."
+    }
+  },
+  {
+    "question": "what is the total amount of cash outflow used for shares repurchased during november 2007 , in millions?",
+    "answer": "20.7",
+    "program_re": "divide(multiply(431170, 48.11), const_1000000)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "",
+        "total number of shares purchased ( a )",
+        "average pricepaid per share",
+        "total number of shares purchased as part of publicly announced plans or programs",
+        "maximum number of shares that may yet be purchased under the plans or programs ( b )"
+      ],
+      [
+        "october 1 to october 28 2007",
+        "705292",
+        "$ 53.53",
+        "705292",
+        "4904824"
+      ],
+      [
+        "october 29 to november 25 2007",
+        "431170",
+        "$ 48.11",
+        "431170",
+        "4473654"
+      ],
+      [
+        "november 26 to december 31 2007",
+        "8310 ( c )",
+        "$ 44.99",
+        "8310",
+        "4465344"
+      ],
+      [
+        "total",
+        "1144772",
+        "$ 51.42",
+        "1144772",
+        ""
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_2": "the october 29 to november 25 2007 of total number of shares purchased ( a ) is 431170 ; the october 29 to november 25 2007 of average pricepaid per share is $ 48.11 ; the october 29 to november 25 2007 of total number of shares purchased as part of publicly announced plans or programs is 431170 ; the october 29 to november 25 2007 of maximum number of shares that may yet be purchased under the plans or programs ( b ) is 4473654 ;"
+    }
+  },
+  {
+    "question": "what portion of the equity compensation plan approved by security holders remains available for future issuance?",
+    "answer": "90.1%",
+    "program_re": "divide(4087587, add(448859, 4087587))",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "plan category",
+        "number of securities to be issued upon exercise of outstanding options warrants and rights ( 1 ) ( a ) ( b )",
+        "weighted-average exercise price of outstanding optionswarrants and rights",
+        "number of securities remaining available for future issuance under equity compensation plans ( excluding securitiesreflected in column ( a ) ) ( c )"
+      ],
+      [
+        "equity compensation plans approved by security holders",
+        "448859",
+        "$ 0.00",
+        "4087587"
+      ],
+      [
+        "equity compensation plans not approved by security holders ( 2 )",
+        "2014",
+        "2014",
+        "2014"
+      ],
+      [
+        "total",
+        "448859",
+        "$ 0.00",
+        "4087587"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_1": "plan category the equity compensation plans approved by security holders of number of securities to be issued upon exercise of outstanding options warrants and rights ( 1 ) ( a ) ( b ) is 448859 ; the equity compensation plans approved by security holders of weighted-average exercise price of outstanding optionswarrants and rights is $ 0.00 ; the equity compensation plans approved by security holders of number of securities remaining available for future issuance under equity compensation plans ( excluding securitiesreflected in column ( a ) ) ( c ) is 4087587 ;"
+    }
+  },
+  {
+    "question": "what was the average operating profit of the space results from 2010 to 2012",
+    "answer": "1059",
+    "program_re": "divide(add(add(subtract(1083, 1063), 1030), const_3), const_2)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "",
+        "2012",
+        "2011",
+        "2010"
+      ],
+      [
+        "net sales",
+        "$ 8347",
+        "$ 8161",
+        "$ 8268"
+      ],
+      [
+        "operating profit",
+        "1083",
+        "1063",
+        "1030"
+      ],
+      [
+        "operating margins",
+        "13.0% ( 13.0 % )",
+        "13.0% ( 13.0 % )",
+        "12.5% ( 12.5 % )"
+      ],
+      [
+        "backlog at year-end",
+        "18100",
+        "16000",
+        "17800"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_2": "the operating profit of 2012 is 1083 ; the operating profit of 2011 is 1063 ; the operating profit of 2010 is 1030 ;"
+    }
+  },
+  {
+    "question": "what amount of long-term debt is due in the next 36 months for entergy corporation as of december 31 , 2013 , in millions?",
+    "answer": "1766.8",
+    "program_re": "divide(add(add(385373, 1110566), 270852), const_1000)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "",
+        "amount ( in thousands )"
+      ],
+      [
+        "2014",
+        "$ 385373"
+      ],
+      [
+        "2015",
+        "$ 1110566"
+      ],
+      [
+        "2016",
+        "$ 270852"
+      ],
+      [
+        "2017",
+        "$ 766801"
+      ],
+      [
+        "2018",
+        "$ 1324616"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_1": "the 2014 of amount ( in thousands ) is $ 385373 ;",
+      "table_2": "the 2015 of amount ( in thousands ) is $ 1110566 ;",
+      "table_3": "the 2016 of amount ( in thousands ) is $ 270852 ;"
+    }
+  },
+  {
+    "question": "what was the cost per car for the buyout of locomotives in 2012?",
+    "answer": "454545",
+    "program_re": "divide(multiply(75, const_1000000), 165)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "cash flowsmillions",
+        "2014",
+        "2013",
+        "2012"
+      ],
+      [
+        "cash provided by operating activities",
+        "$ 7385",
+        "$ 6823",
+        "$ 6161"
+      ],
+      [
+        "cash used in investing activities",
+        "-4249 ( 4249 )",
+        "-3405 ( 3405 )",
+        "-3633 ( 3633 )"
+      ],
+      [
+        "cash used in financing activities",
+        "-2982 ( 2982 )",
+        "-3049 ( 3049 )",
+        "-2682 ( 2682 )"
+      ],
+      [
+        "net change in cash and cashequivalents",
+        "$ 154",
+        "$ 369",
+        "$ -154 ( 154 )"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "text_14": "included in capital investments in 2012 was $ 75 million for the early buyout of 165 locomotives under long-term operating and capital leases during the first quarter of 2012 , which we exercised due to favorable economic terms and market conditions. ."
+    }
+  },
+  {
+    "question": "what on the net interest reduction of 13 million or 23% ( 23 % ) compared to 2015 what was the interest amount in 2016 in millions",
+    "answer": "69.5",
+    "program_re": "add(divide(13, 23%), 13)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "( in millions )",
+        "for the fiscal years ended june 30 , 2016",
+        "for the fiscal years ended june 30 , 2015"
+      ],
+      [
+        "gain on iproperty transaction ( a )",
+        "$ 29",
+        "$ 2014"
+      ],
+      [
+        "impairment of marketable securities and cost method investments ( b )",
+        "-21 ( 21 )",
+        "-5 ( 5 )"
+      ],
+      [
+        "gain on sale of marketable securities ( c )",
+        "2014",
+        "29"
+      ],
+      [
+        "dividends received from cost method investments",
+        "2014",
+        "25"
+      ],
+      [
+        "gain on sale of cost method investments",
+        "2014",
+        "15"
+      ],
+      [
+        "other",
+        "10",
+        "11"
+      ],
+      [
+        "total other net",
+        "$ 18",
+        "$ 75"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "text_3": "interest , net 2014interest , net for the fiscal year ended june 30 , 2016 decreased $ 13 million , or 23% ( 23 % ) , as compared to fiscal 2015 , primarily due to the negative impact of foreign currency fluctuations and interest expense associated with the rea facility ."
+    }
+  },
+  {
+    "question": "how much more , in percent , was spent on october shares than november shares?",
+    "answer": "1229%",
+    "program_re": "multiply(divide(multiply(29704, 5.99), multiply(4468, 3.24)), const_100)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "",
+        "total number of shares purchased",
+        "average price paid per share2",
+        "total number of shares purchased as part of publicly announced plans or programs",
+        "maximum number ofshares that may yet be purchased under the plans or programs"
+      ],
+      [
+        "october 1-31",
+        "29704",
+        "$ 5.99",
+        "2014",
+        "2014"
+      ],
+      [
+        "november 1-30",
+        "4468",
+        "$ 3.24",
+        "2014",
+        "2014"
+      ],
+      [
+        "december 1-31",
+        "12850",
+        "$ 3.98",
+        "2014",
+        "2014"
+      ],
+      [
+        "total1",
+        "47022",
+        "$ 5.18",
+        "2014",
+        "2014"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_1": "the october 1-31 of total number of shares purchased is 29704 ; the october 1-31 of average price paid per share2 is $ 5.99 ; the october 1-31 of total number of shares purchased as part of publicly announced plans or programs is 2014 ; the october 1-31 of maximum number ofshares that may yet be purchased under the plans or programs is 2014 ;",
+      "table_2": "the november 1-30 of total number of shares purchased is 4468 ; the november 1-30 of average price paid per share2 is $ 3.24 ; the november 1-30 of total number of shares purchased as part of publicly announced plans or programs is 2014 ; the november 1-30 of maximum number ofshares that may yet be purchased under the plans or programs is 2014 ;",
+      "text_0": "repurchase of equity securities the following table provides information regarding our purchases of equity securities during the fourth quarter of 2008 : number of shares purchased average paid per share2 total number of shares purchased as part of publicly announced plans or programs maximum number of shares that may yet be purchased under the plans or programs ."
+    }
+  },
+  {
+    "question": "what portion of total value of net operating loss carryforwards is related to state?",
+    "answer": "52.8%",
+    "program_re": "divide(2418012, add(2157503, 2418012))",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "years ended december 31,",
+        "federal",
+        "state"
+      ],
+      [
+        "2006 to 2010",
+        "$ 5248",
+        "$ 469747"
+      ],
+      [
+        "2011 to 2015",
+        "10012",
+        "272662"
+      ],
+      [
+        "2016 to 2020",
+        "397691",
+        "777707"
+      ],
+      [
+        "2021 to 2025",
+        "1744552",
+        "897896"
+      ],
+      [
+        "total",
+        "$ 2157503",
+        "$ 2418012"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_5": "years ended december 31 , the total of federal is $ 2157503 ; the total of state is $ 2418012 ;"
+    }
+  },
+  {
+    "question": "what percentage of future minimum lease commitments at december 31 , 2006 for all operating leases that have a remaining term of more than one year are due in 2008?",
+    "answer": "23%",
+    "program_re": "divide(254, multiply(1.1, const_1000))",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "( in millions )",
+        "pensionbenefits",
+        "otherbenefits"
+      ],
+      [
+        "2007",
+        "$ 1440",
+        "$ 260"
+      ],
+      [
+        "2008",
+        "1490",
+        "260"
+      ],
+      [
+        "2009",
+        "1540",
+        "270"
+      ],
+      [
+        "2010",
+        "1600",
+        "270"
+      ],
+      [
+        "2011",
+        "1660",
+        "270"
+      ],
+      [
+        "years 2012 2013 2016",
+        "9530",
+        "1260"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "text_9": "future minimum lease commitments at december 31 , 2006 for all operating leases that have a remaining term of more than one year were $ 1.1 billion ( $ 288 million in 2007 , $ 254 million in 2008 , $ 211 million in 2009 , $ 153 million in 2010 , $ 118 million in 2011 and $ 121 million in later years ) ."
+    }
+  },
+  {
+    "question": "for december 31 , 2011 and december 31 , 2010 , what was the average unpaid principal balance outstanding of loans sold as a participant in these programs , in billions?",
+    "answer": "13.1",
+    "program_re": "divide(add(13.0, 13.2), const_2)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "change in assumption ( a )",
+        "estimatedincrease to 2012pensionexpense ( in millions )"
+      ],
+      [
+        ".5% ( .5 % ) decrease in discount rate",
+        "$ 23"
+      ],
+      [
+        ".5% ( .5 % ) decrease in expected long-term return on assets",
+        "$ 18"
+      ],
+      [
+        ".5% ( .5 % ) increase in compensation rate",
+        "$ 2"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "text_13": "at december 31 , 2011 and december 31 , 2010 , the unpaid principal balance outstanding of loans sold as a participant in these programs was $ 13.0 billion and $ 13.2 billion , respectively ."
+    }
+  },
+  {
+    "question": "what was the average total stock-based compensation expense from 2008 to 2010 in millions",
+    "answer": "218",
+    "program_re": "divide(add(add(add(221, 209), 226), const_3), const_2)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "years ended december 31",
+        "2010",
+        "2009",
+        "2008"
+      ],
+      [
+        "rsus",
+        "$ 138",
+        "$ 124",
+        "$ 132"
+      ],
+      [
+        "performance plans",
+        "62",
+        "60",
+        "67"
+      ],
+      [
+        "stock options",
+        "17",
+        "21",
+        "24"
+      ],
+      [
+        "employee stock purchase plans",
+        "4",
+        "4",
+        "3"
+      ],
+      [
+        "total stock-based compensation expense",
+        "221",
+        "209",
+        "226"
+      ],
+      [
+        "tax benefit",
+        "75",
+        "68",
+        "82"
+      ],
+      [
+        "stock-based compensation expense net of tax",
+        "$ 146",
+        "$ 141",
+        "$ 144"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_5": "years ended december 31 the total stock-based compensation expense of 2010 is 221 ; the total stock-based compensation expense of 2009 is 209 ; the total stock-based compensation expense of 2008 is 226 ;"
+    }
+  },
+  {
+    "question": "for the mtn group acquisition , what was the cost per tower ? .",
+    "answer": "1798334",
+    "program_re": "divide(multiply(173.2, const_1000000), 962)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "",
+        "preliminary purchase price allocation"
+      ],
+      [
+        "non-current assets",
+        "$ 2258"
+      ],
+      [
+        "property and equipment",
+        "102366"
+      ],
+      [
+        "intangible assets ( 1 )",
+        "63500"
+      ],
+      [
+        "other non-current liabilities",
+        "-7528 ( 7528 )"
+      ],
+      [
+        "fair value of net assets acquired",
+        "$ 160596"
+      ],
+      [
+        "goodwill ( 2 )",
+        "12564"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "text_7": "pursuant to the agreement , the joint venture agreed to purchase a total of up to 1000 existing communications sites from mtn group 2019s operating subsidiary in uganda , subject to customary closing conditions .",
+      "text_8": "on june 29 , 2012 , the joint venture acquired 962 communications sites for an aggregate purchase price of $ 171.5 million , subject to post-closing adjustments .",
+      "text_9": "the aggregate purchase price was subsequently increased to $ 173.2 million , subject to future post-closing adjustments ."
+    }
+  },
+  {
+    "question": "what is the increase in other regulatory credits as a percentage of net revenue in 2003?",
+    "answer": "3.85%",
+    "program_re": "divide(add(add(14.3, 11.8), 11.4), 973.7)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "",
+        "( in millions )"
+      ],
+      [
+        "2002 net revenue",
+        "$ 922.9"
+      ],
+      [
+        "deferred fuel cost revisions",
+        "59.1"
+      ],
+      [
+        "asset retirement obligation",
+        "8.2"
+      ],
+      [
+        "volume",
+        "-16.2 ( 16.2 )"
+      ],
+      [
+        "vidalia settlement",
+        "-9.2 ( 9.2 )"
+      ],
+      [
+        "other",
+        "8.9"
+      ],
+      [
+        "2003 net revenue",
+        "$ 973.7"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_7": "the 2003 net revenue of ( in millions ) is $ 973.7 ;",
+      "text_4": "other regulatory credits increased primarily due to : 2022 the deferral in 2004 of $ 14.3 million of capacity charges related to generation resource planning as allowed by the lpsc ; 2022 the amortization in 2003 of $ 11.8 million of deferred capacity charges , as discussed above ; and 2022 the deferral in 2004 of $ 11.4 million related to entergy's voluntary severance program , in accordance with a proposed stipulation with the lpsc staff .",
+      "text_6": "following is an analysis of the change in net revenue comparing 2003 to 2002. ."
+    }
+  },
+  {
+    "question": "what is the percent change in quarterly cash dividend for the period ended march 31 2002 to the period ended december 31 2002?",
+    "answer": "1.11%",
+    "program_re": "multiply(divide(subtract(.455, .450), .450), const_100)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "quarter ended",
+        "2002 high",
+        "2002 low",
+        "2002 dividend",
+        "2002 high",
+        "2002 low",
+        "dividend"
+      ],
+      [
+        "december 31",
+        "$ 25.84",
+        "$ 21.50",
+        "$ .455",
+        "$ 24.80",
+        "$ 22.00",
+        "$ .45"
+      ],
+      [
+        "september 30",
+        "28.88",
+        "21.40",
+        ".455",
+        "26.17",
+        "21.60",
+        ".45"
+      ],
+      [
+        "june 30",
+        "28.95",
+        "25.46",
+        ".450",
+        "24.99",
+        "22.00",
+        ".43"
+      ],
+      [
+        "march 31",
+        "26.50",
+        "22.92",
+        ".450",
+        "25.44",
+        "21.85",
+        ".43"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_4": "quarter ended the march 31 of 2002 high is 26.50 ; the march 31 of 2002 low is 22.92 ; the march 31 of 2002 dividend is .450 ; the march 31 of 2002 high is 25.44 ; the march 31 of 2002 low is 21.85 ; the march 31 of dividend is .43 ;",
+      "table_2": "quarter ended the september 30 of 2002 high is 28.88 ; the september 30 of 2002 low is 21.40 ; the september 30 of 2002 dividend is .455 ; the september 30 of 2002 high is 26.17 ; the september 30 of 2002 low is 21.60 ; the september 30 of dividend is .45 ;"
+    }
+  },
+  {
+    "question": "considering the year 2016 , what is the short-term debt as a percent of total debt?",
+    "answer": "21%",
+    "program_re": "divide(add(935.8, 371.3), 6225.2)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "30 september",
+        "2016",
+        "2015"
+      ],
+      [
+        "short-term borrowings",
+        "$ 935.8",
+        "$ 1494.3"
+      ],
+      [
+        "current portion of long-term debt",
+        "371.3",
+        "435.6"
+      ],
+      [
+        "long-term debt",
+        "4918.1",
+        "3949.1"
+      ],
+      [
+        "total debt",
+        "$ 6225.2",
+        "$ 5879.0"
+      ],
+      [
+        "short-term borrowings",
+        "",
+        ""
+      ],
+      [
+        "30 september",
+        "2016",
+        "2015"
+      ],
+      [
+        "bank obligations",
+        "$ 133.1",
+        "$ 234.3"
+      ],
+      [
+        "commercial paper",
+        "802.7",
+        "1260.0"
+      ],
+      [
+        "total short-term borrowings",
+        "$ 935.8",
+        "$ 1494.3"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_1": "30 september the short-term borrowings of 2016 is $ 935.8 ; the short-term borrowings of 2015 is $ 1494.3 ;",
+      "table_2": "30 september the current portion of long-term debt of 2016 is 371.3 ; the current portion of long-term debt of 2015 is 435.6 ;",
+      "table_4": "30 september the total debt of 2016 is $ 6225.2 ; the total debt of 2015 is $ 5879.0 ;"
+    }
+  },
+  {
+    "question": "in 2014 , what percentage of the total amortization amount was from intangibles?",
+    "answer": "80%",
+    "program_re": "multiply(divide(36, 45), const_100)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "year",
+        "amortization amount ( in millions )"
+      ],
+      [
+        "2015",
+        "$ 45"
+      ],
+      [
+        "2016",
+        "$ 45"
+      ],
+      [
+        "2017",
+        "$ 45"
+      ],
+      [
+        "2018",
+        "$ 45"
+      ],
+      [
+        "2019",
+        "$ 44"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "text_7": "amortization expense for intangibles was approximately $ 36 million for the year ended december 31 , 2014 .",
+      "table_4": "year the 2018 of amortization amount ( in millions ) is $ 45 ;"
+    }
+  },
+  {
+    "question": "what was the percentage change in the fair value of msrs in 2007?",
+    "answer": "14%",
+    "program_re": "divide(multiply(8632, 7546), 7546)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "year ended december 31 ( inmillions )",
+        "2007",
+        "2006"
+      ],
+      [
+        "balance at beginning of period after valuation allowance",
+        "$ 7546",
+        "$ 6452"
+      ],
+      [
+        "cumulative effect of change in accounting principle",
+        "2014",
+        "230"
+      ],
+      [
+        "fair value at beginning of period",
+        "7546",
+        "6682"
+      ],
+      [
+        "originations of msrs",
+        "2335",
+        "1512"
+      ],
+      [
+        "purchase of msrs",
+        "798",
+        "627"
+      ],
+      [
+        "total additions",
+        "3133",
+        "2139"
+      ],
+      [
+        "change in valuation due to inputs and assumptions ( a )",
+        "-516 ( 516 )",
+        "165"
+      ],
+      [
+        "other changes in fair value ( b )",
+        "-1531 ( 1531 )",
+        "-1440 ( 1440 )"
+      ],
+      [
+        "total change in fair value",
+        "-2047 ( 2047 )",
+        "-1275 ( 1275 )"
+      ],
+      [
+        "fair value at december 31",
+        "$ 8632",
+        "$ 7546"
+      ],
+      [
+        "change in unrealized ( losses ) gains included in income related to msrs held at december 31",
+        "$ -516 ( 516 )",
+        "na"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_10": "year ended december 31 ( inmillions ) the fair value at december 31 of 2007 is $ 8632 ; the fair value at december 31 of 2006 is $ 7546 ;"
+    }
+  },
+  {
+    "question": "what percent decrease for interest income occurred between 2014 and 2015?",
+    "answer": "16.79%",
+    "program_re": "multiply(divide(subtract(27.4, 22.8), 27.4), const_100)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "as of december 31,",
+        "increase/ ( decrease ) in fair market value 10% ( 10 % ) increasein interest rates",
+        "increase/ ( decrease ) in fair market value 10% ( 10 % ) decreasein interest rates"
+      ],
+      [
+        "2015",
+        "$ -33.7 ( 33.7 )",
+        "$ 34.7"
+      ],
+      [
+        "2014",
+        "-35.5 ( 35.5 )",
+        "36.6"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "text_13": "during 2015 and 2014 , we had interest income of $ 22.8 and $ 27.4 , respectively ."
+    }
+  },
+  {
+    "question": "what percent of the balance increase is attributed to balances assumed in acquisitions?",
+    "answer": "13.45%",
+    "program_re": "divide(add(4, 12), subtract(404, 285))",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "( dollar amounts in millions )",
+        "year ended december 31 , 2012",
+        "year ended december 31 , 2011",
+        "year ended december 31 , 2010"
+      ],
+      [
+        "balance at january 1",
+        "$ 349",
+        "$ 307",
+        "$ 285"
+      ],
+      [
+        "additions for tax positions of prior years",
+        "4",
+        "22",
+        "10"
+      ],
+      [
+        "reductions for tax positions of prior years",
+        "-1 ( 1 )",
+        "-1 ( 1 )",
+        "-17 ( 17 )"
+      ],
+      [
+        "additions based on tax positions related to current year",
+        "69",
+        "46",
+        "35"
+      ],
+      [
+        "lapse of statute of limitations",
+        "2014",
+        "2014",
+        "-8 ( 8 )"
+      ],
+      [
+        "settlements",
+        "-29 ( 29 )",
+        "-25 ( 25 )",
+        "-2 ( 2 )"
+      ],
+      [
+        "positions assumed in acquisitions",
+        "12",
+        "2014",
+        "4"
+      ],
+      [
+        "balance at december 31",
+        "$ 404",
+        "$ 349",
+        "$ 307"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_1": "( dollar amounts in millions ) the balance at january 1 of year ended december 31 , 2012 is $ 349 ; the balance at january 1 of year ended december 31 , 2011 is $ 307 ; the balance at january 1 of year ended december 31 , 2010 is $ 285 ;",
+      "table_7": "( dollar amounts in millions ) the positions assumed in acquisitions of year ended december 31 , 2012 is 12 ; the positions assumed in acquisitions of year ended december 31 , 2011 is 2014 ; the positions assumed in acquisitions of year ended december 31 , 2010 is 4 ;",
+      "table_8": "( dollar amounts in millions ) the balance at december 31 of year ended december 31 , 2012 is $ 404 ; the balance at december 31 of year ended december 31 , 2011 is $ 349 ; the balance at december 31 of year ended december 31 , 2010 is $ 307 ;",
+      "text_12": "the following tabular reconciliation presents the total amounts of gross unrecognized tax benefits : year ended december 31 , ( dollar amounts in millions ) 2012 2011 2010 ."
+    }
+  },
+  {
+    "question": "what was the average entergy louisiana receivables from 2008 to 2011 in millions",
+    "answer": "11378.75",
+    "program_re": "divide(add(multiply(118415, const_m1), 52807), const_4)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "2011",
+        "2010",
+        "2009",
+        "2008"
+      ],
+      [
+        "( in thousands )",
+        "( in thousands )",
+        "( in thousands )",
+        "( in thousands )"
+      ],
+      [
+        "( $ 118415 )",
+        "$ 49887",
+        "$ 52807",
+        "$ 61236"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_2": "2011 the ( $ 118415 ) of 2010 is $ 49887 ; the ( $ 118415 ) of 2009 is $ 52807 ; the ( $ 118415 ) of 2008 is $ 61236 ;"
+    }
+  },
+  {
+    "question": "north american consumer packaging net sales where what percentage of consumer packaging sales in 2009?",
+    "answer": "72%",
+    "program_re": "divide(multiply(2.2, const_1000), 3060)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "in millions",
+        "2009",
+        "2008",
+        "2007"
+      ],
+      [
+        "sales",
+        "$ 3060",
+        "$ 3195",
+        "$ 3015"
+      ],
+      [
+        "operating profit",
+        "433",
+        "17",
+        "112"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_1": "in millions the sales of 2009 is $ 3060 ; the sales of 2008 is $ 3195 ; the sales of 2007 is $ 3015 ;",
+      "text_25": "north american consumer packaging net sales were $ 2.2 billion compared with $ 2.5 billion in 2008 and $ 2.4 billion in 2007 ."
+    }
+  },
+  {
+    "question": "what is the percentage decrease in total liability from dec 31 2007 to dec 31 2008?",
+    "answer": "56.75%",
+    "program_re": "multiply(divide(subtract(29.6, 12.8), 29.6), const_100)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "",
+        "2007 program",
+        "2003 program",
+        "2001 program",
+        "total"
+      ],
+      [
+        "liability at december 31 2006",
+        "$ 2014",
+        "$ 12.6",
+        "$ 19.2",
+        "$ 31.8"
+      ],
+      [
+        "net charges ( reversals ) and adjustments",
+        "19.1",
+        "-0.5 ( 0.5 )",
+        "-5.2 ( 5.2 )",
+        "13.4"
+      ],
+      [
+        "payments and other1",
+        "-7.2 ( 7.2 )",
+        "-3.1 ( 3.1 )",
+        "-5.3 ( 5.3 )",
+        "-15.6 ( 15.6 )"
+      ],
+      [
+        "liability at december 31 2007",
+        "$ 11.9",
+        "$ 9.0",
+        "$ 8.7",
+        "$ 29.6"
+      ],
+      [
+        "net charges and adjustments",
+        "4.3",
+        "0.8",
+        "0.7",
+        "5.8"
+      ],
+      [
+        "payments and other1",
+        "-15.0 ( 15.0 )",
+        "-4.1 ( 4.1 )",
+        "-3.5 ( 3.5 )",
+        "-22.6 ( 22.6 )"
+      ],
+      [
+        "liability at december 31 2008",
+        "$ 1.2",
+        "$ 5.7",
+        "$ 5.9",
+        "$ 12.8"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_4": "the liability at december 31 2007 of 2007 program is $ 11.9 ; the liability at december 31 2007 of 2003 program is $ 9.0 ; the liability at december 31 2007 of 2001 program is $ 8.7 ; the liability at december 31 2007 of total is $ 29.6 ;",
+      "table_7": "the liability at december 31 2008 of 2007 program is $ 1.2 ; the liability at december 31 2008 of 2003 program is $ 5.7 ; the liability at december 31 2008 of 2001 program is $ 5.9 ; the liability at december 31 2008 of total is $ 12.8 ;",
+      "text_0": "notes to consolidated financial statements 2014 ( continued ) ( amounts in millions , except per share amounts ) a summary of the remaining liability for the 2007 , 2003 and 2001 restructuring programs is as follows : program program program total ."
+    }
+  },
+  {
+    "question": "considering the years 2014-2016 , what was the average cash paid for interest?",
+    "answer": "117",
+    "program_re": "divide(add(132.4, add(121.1, 97.5)), const_3)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "30 september",
+        "2016",
+        "2015"
+      ],
+      [
+        "short-term borrowings",
+        "$ 935.8",
+        "$ 1494.3"
+      ],
+      [
+        "current portion of long-term debt",
+        "371.3",
+        "435.6"
+      ],
+      [
+        "long-term debt",
+        "4918.1",
+        "3949.1"
+      ],
+      [
+        "total debt",
+        "$ 6225.2",
+        "$ 5879.0"
+      ],
+      [
+        "short-term borrowings",
+        "",
+        ""
+      ],
+      [
+        "30 september",
+        "2016",
+        "2015"
+      ],
+      [
+        "bank obligations",
+        "$ 133.1",
+        "$ 234.3"
+      ],
+      [
+        "commercial paper",
+        "802.7",
+        "1260.0"
+      ],
+      [
+        "total short-term borrowings",
+        "$ 935.8",
+        "$ 1494.3"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "text_3": "cash paid for interest , net of amounts capitalized , was $ 121.1 in 2016 , $ 97.5 in 2015 , and $ 132.4 in 2014. ."
+    }
+  },
+  {
+    "question": "if the fuel surcharge grows by the same rate as in 2014what would expected 2015 revenues be in billions?",
+    "answer": "3.0",
+    "program_re": "multiply(divide(2.8, 2.6), 2.8)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "millions",
+        "2014",
+        "2013",
+        "2012",
+        "% (  % ) change 2014 v 2013",
+        "% (  % ) change 2013 v 2012"
+      ],
+      [
+        "freight revenues",
+        "$ 22560",
+        "$ 20684",
+        "$ 19686",
+        "9% ( 9 % )",
+        "5% ( 5 % )"
+      ],
+      [
+        "other revenues",
+        "1428",
+        "1279",
+        "1240",
+        "12% ( 12 % )",
+        "3% ( 3 % )"
+      ],
+      [
+        "total",
+        "$ 23988",
+        "$ 21963",
+        "$ 20926",
+        "9% ( 9 % )",
+        "5% ( 5 % )"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "text_15": "our fuel surcharge programs generated freight revenues of $ 2.8 billion , $ 2.6 billion , and $ 2.6 billion in 2014 , 2013 , and 2012 , respectively ."
+    }
+  },
+  {
+    "question": "what is the average , in millions , home equity line of credit with balloon payments with draw periods from 2012 to 2016?",
+    "answer": "150",
+    "program_re": "divide(add(add(add(add(306, 44), 60), 100), 246), const_5)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "in millions",
+        "interest only product",
+        "principal and interest product"
+      ],
+      [
+        "2012",
+        "$ 904",
+        "$ 266"
+      ],
+      [
+        "2013",
+        "1211",
+        "331"
+      ],
+      [
+        "2014",
+        "2043",
+        "598"
+      ],
+      [
+        "2015",
+        "1988",
+        "820"
+      ],
+      [
+        "2016 and thereafter",
+        "6961",
+        "5601"
+      ],
+      [
+        "total ( a )",
+        "$ 13107",
+        "$ 7616"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "text_4": "( a ) includes approximately $ 306 million , $ 44 million , $ 60 million , $ 100 million , and $ 246 million of home equity lines of credit with balloon payments with draw periods scheduled to end in 2012 , 2013 , 2014 , 2015 , and 2016 and thereafter , respectively ."
+    }
+  },
+  {
+    "question": "what was the average net revenue from 2010 to 2011",
+    "answer": "559",
+    "program_re": "divide(add(add(577.8, 540.2), const_2), const_2)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "",
+        "amount ( in millions )"
+      ],
+      [
+        "2010 net revenue",
+        "$ 540.2"
+      ],
+      [
+        "retail electric price",
+        "36.0"
+      ],
+      [
+        "volume/weather",
+        "21.3"
+      ],
+      [
+        "purchased power capacity",
+        "-24.6 ( 24.6 )"
+      ],
+      [
+        "other",
+        "4.9"
+      ],
+      [
+        "2011 net revenue",
+        "$ 577.8"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_1": "the 2010 net revenue of amount ( in millions ) is $ 540.2 ;",
+      "table_6": "the 2011 net revenue of amount ( in millions ) is $ 577.8 ;"
+    }
+  },
+  {
+    "question": "what was the average pension service cost from 2016 to 2018 in millions",
+    "answer": "109",
+    "program_re": "divide(add(81, add(136, 110)), const_3)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "( millions of dollars )",
+        "pension plans 2018",
+        "pension plans 2017",
+        "pension plans 2016"
+      ],
+      [
+        "service cost",
+        "$ 136",
+        "$ 110",
+        "$ 81"
+      ],
+      [
+        "interest cost",
+        "90",
+        "61",
+        "72"
+      ],
+      [
+        "expected return on plan assets",
+        "-154 ( 154 )",
+        "-112 ( 112 )",
+        "-109 ( 109 )"
+      ],
+      [
+        "amortization of prior service credit",
+        "-13 ( 13 )",
+        "-14 ( 14 )",
+        "-15 ( 15 )"
+      ],
+      [
+        "amortization of loss",
+        "78",
+        "92",
+        "77"
+      ],
+      [
+        "settlements",
+        "2",
+        "2014",
+        "7"
+      ],
+      [
+        "net pension cost",
+        "$ 137",
+        "$ 138",
+        "$ 113"
+      ],
+      [
+        "net pension cost included in the preceding table that is attributable to international plans",
+        "$ 34",
+        "$ 43",
+        "$ 35"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_1": "( millions of dollars ) the service cost of pension plans 2018 is $ 136 ; the service cost of pension plans 2017 is $ 110 ; the service cost of pension plans 2016 is $ 81 ;"
+    }
+  },
+  {
+    "question": "what was the average catastrophe losses from 2008 to 2010 in millions",
+    "answer": "356.7",
+    "program_re": "divide(add(567, add(366, 137)), const_3)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "",
+        "2010",
+        "2009",
+        "2008"
+      ],
+      [
+        "loss and loss expense ratio as reported",
+        "59.2% ( 59.2 % )",
+        "58.8% ( 58.8 % )",
+        "60.6% ( 60.6 % )"
+      ],
+      [
+        "catastrophe losses and related reinstatement premiums",
+        "( 3.2 ) % (  % )",
+        "( 1.2 ) % (  % )",
+        "( 4.7 ) % (  % )"
+      ],
+      [
+        "prior period development",
+        "4.6% ( 4.6 % )",
+        "4.9% ( 4.9 % )",
+        "6.8% ( 6.8 % )"
+      ],
+      [
+        "large assumed loss portfolio transfers",
+        "( 0.3 ) % (  % )",
+        "( 0.8 ) % (  % )",
+        "0.0% ( 0.0 % )"
+      ],
+      [
+        "loss and loss expense ratio adjusted",
+        "60.3% ( 60.3 % )",
+        "61.7% ( 61.7 % )",
+        "62.7% ( 62.7 % )"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "text_1": "we recorded net pre-tax catastrophe losses of $ 366 million in 2010 compared with net pre-tax catastrophe losses of $ 137 million and $ 567 million in 2009 and 2008 , respectively ."
+    }
+  },
+  {
+    "question": "what is the total amount of cash outflow used for shares repurchased during october 2007 , in millions?",
+    "answer": "37.8",
+    "program_re": "divide(multiply(705292, 53.53), const_1000000)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "",
+        "total number of shares purchased ( a )",
+        "average pricepaid per share",
+        "total number of shares purchased as part of publicly announced plans or programs",
+        "maximum number of shares that may yet be purchased under the plans or programs ( b )"
+      ],
+      [
+        "october 1 to october 28 2007",
+        "705292",
+        "$ 53.53",
+        "705292",
+        "4904824"
+      ],
+      [
+        "october 29 to november 25 2007",
+        "431170",
+        "$ 48.11",
+        "431170",
+        "4473654"
+      ],
+      [
+        "november 26 to december 31 2007",
+        "8310 ( c )",
+        "$ 44.99",
+        "8310",
+        "4465344"
+      ],
+      [
+        "total",
+        "1144772",
+        "$ 51.42",
+        "1144772",
+        ""
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_1": "the october 1 to october 28 2007 of total number of shares purchased ( a ) is 705292 ; the october 1 to october 28 2007 of average pricepaid per share is $ 53.53 ; the october 1 to october 28 2007 of total number of shares purchased as part of publicly announced plans or programs is 705292 ; the october 1 to october 28 2007 of maximum number of shares that may yet be purchased under the plans or programs ( b ) is 4904824 ;"
+    }
+  },
+  {
+    "question": "goodwill comprises what percentage of total assets acquired?",
+    "answer": "1.70%",
+    "program_re": "multiply(divide(14722, 867558), const_100)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "operating rental properties",
+        "$ 602011"
+      ],
+      [
+        "land held for development",
+        "154300"
+      ],
+      [
+        "total real estate investments",
+        "756311"
+      ],
+      [
+        "other assets",
+        "10478"
+      ],
+      [
+        "lease related intangible assets",
+        "86047"
+      ],
+      [
+        "goodwill",
+        "14722"
+      ],
+      [
+        "total assets acquired",
+        "867558"
+      ],
+      [
+        "debt assumed",
+        "-148527 ( 148527 )"
+      ],
+      [
+        "other liabilities assumed",
+        "-5829 ( 5829 )"
+      ],
+      [
+        "purchase price net of assumed liabilities",
+        "$ 713202"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_5": "operating rental properties the goodwill of $ 602011 is 14722 ;",
+      "table_6": "operating rental properties the total assets acquired of $ 602011 is 867558 ;",
+      "text_10": "the initial consideration paid to the sellers totaled $ 47.1 million , and the sellers may be eligible for further contingent payments over the next three years ."
+    }
+  },
+  {
+    "question": "what was the percentage of the total severance actions related to our aeronautics , space systems , and our is&gs business segments and corporate headquarters in 2011 related to the aeronautics",
+    "answer": "36%",
+    "program_re": "divide(49, add(39, add(49, 48)))",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "",
+        "2013",
+        "2012",
+        "2011"
+      ],
+      [
+        "weighted average common shares outstanding for basic computations",
+        "320.9",
+        "323.7",
+        "335.9"
+      ],
+      [
+        "weighted average dilutive effect of equity awards",
+        "5.6",
+        "4.7",
+        "4.0"
+      ],
+      [
+        "weighted average common shares outstanding for diluted computations",
+        "326.5",
+        "328.4",
+        "339.9"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "text_15": "during 2011 , we recorded charges related to certain severance actions totaling $ 136 million , net of state tax benefits , of which $ 49 million , $ 48 million , and $ 39 million related to our aeronautics , space systems , and our is&gs business segments and corporate headquarters ."
+    }
+  },
+  {
+    "question": "what portion of the equity compensation plan approved by security holders is to be issued upon the exercise of options warrants and rights?",
+    "answer": "9.9%",
+    "program_re": "divide(448859, add(448859, 4087587))",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "plan category",
+        "number of securities to be issued upon exercise of outstanding options warrants and rights ( 1 ) ( a ) ( b )",
+        "weighted-average exercise price of outstanding optionswarrants and rights",
+        "number of securities remaining available for future issuance under equity compensation plans ( excluding securitiesreflected in column ( a ) ) ( c )"
+      ],
+      [
+        "equity compensation plans approved by security holders",
+        "448859",
+        "$ 0.00",
+        "4087587"
+      ],
+      [
+        "equity compensation plans not approved by security holders ( 2 )",
+        "2014",
+        "2014",
+        "2014"
+      ],
+      [
+        "total",
+        "448859",
+        "$ 0.00",
+        "4087587"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_1": "plan category the equity compensation plans approved by security holders of number of securities to be issued upon exercise of outstanding options warrants and rights ( 1 ) ( a ) ( b ) is 448859 ; the equity compensation plans approved by security holders of weighted-average exercise price of outstanding optionswarrants and rights is $ 0.00 ; the equity compensation plans approved by security holders of number of securities remaining available for future issuance under equity compensation plans ( excluding securitiesreflected in column ( a ) ) ( c ) is 4087587 ;"
+    }
+  },
+  {
+    "question": "what percentage of the total purchase price is represented by intangible assets?",
+    "answer": "54%",
+    "program_re": "divide(multiply(8.5, const_1000), 15704)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "",
+        "( in thousands )"
+      ],
+      [
+        "cash paid",
+        "$ 11001"
+      ],
+      [
+        "prior investment in hpl",
+        "1872"
+      ],
+      [
+        "acquisition-related costs",
+        "2831"
+      ],
+      [
+        "total purchase price",
+        "$ 15704"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_4": "the total purchase price of ( in thousands ) is $ 15704 ;",
+      "text_10": "the company acquired $ 8.5 million of intangible assets consisting of $ 5.1 million in core developed technology , $ 3.2 million in customer relationships and $ 0.2 million in backlog to be amortized over two to four years ."
+    }
+  },
+  {
+    "question": "what is the average variance of the value at risk of each 2008 section? ( $ )",
+    "answer": "3.85",
+    "program_re": "divide(add(subtract(4.7, .3), subtract(const_4, .7)), const_2)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "years ended december 31 ( inmillions )",
+        "2008 annual average",
+        "2008 maximum",
+        "2008 minimum",
+        "2008 annual average",
+        "2008 maximum",
+        "minimum"
+      ],
+      [
+        "foreign exchange products",
+        "$ 1.8",
+        "$ 4.7",
+        "$ .3",
+        "$ 1.8",
+        "$ 4.0",
+        "$ .7"
+      ],
+      [
+        "interest-rate products",
+        "1.1",
+        "2.4",
+        ".6",
+        "1.4",
+        "3.7",
+        ".1"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_1": "years ended december 31 ( inmillions ) the foreign exchange products of 2008 annual average is $ 1.8 ; the foreign exchange products of 2008 maximum is $ 4.7 ; the foreign exchange products of 2008 minimum is $ .3 ; the foreign exchange products of 2008 annual average is $ 1.8 ; the foreign exchange products of 2008 maximum is $ 4.0 ; the foreign exchange products of minimum is $ .7 ;",
+      "text_0": "the following table presents var with respect to our trading activities , as measured by our var methodology for the periods indicated : value-at-risk ."
+    }
+  },
+  {
+    "question": "what is the average price of the increased electricity usage per gwh?",
+    "answer": "18068.8",
+    "program_re": "divide(multiply(18.9, const_1000000), 1046)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "",
+        "amount ( in millions )"
+      ],
+      [
+        "2009 net revenue",
+        "$ 536.7"
+      ],
+      [
+        "volume/weather",
+        "18.9"
+      ],
+      [
+        "other",
+        "-0.3 ( 0.3 )"
+      ],
+      [
+        "2010 net revenue",
+        "$ 555.3"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_2": "the volume/weather of amount ( in millions ) is 18.9 ;",
+      "text_4": "the volume/weather variance is primarily due to an increase of 1046 gwh , or 8% ( 8 % ) , in billed electricity usage in all sectors , primarily due to the effect of more favorable weather on the residential sector ."
+    }
+  },
+  {
+    "question": "in 2016 based on the increase in the net sales what was the ratio of the increasing factor to the offsetting factors that reduced sales",
+    "answer": "40.7",
+    "program_re": "divide(add(add(1.7, 290), 250), 550)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "",
+        "2016",
+        "2015",
+        "2014"
+      ],
+      [
+        "net sales",
+        "$ 17769",
+        "$ 15570",
+        "$ 14920"
+      ],
+      [
+        "operating profit",
+        "1887",
+        "1681",
+        "1649"
+      ],
+      [
+        "operating margin",
+        "10.6% ( 10.6 % )",
+        "10.8% ( 10.8 % )",
+        "11.1% ( 11.1 % )"
+      ],
+      [
+        "backlog atyear-end",
+        "$ 34200",
+        "$ 31800",
+        "$ 27600"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "text_14": "2016 compared to 2015 aeronautics 2019 net sales in 2016 increased $ 2.2 billion , or 14% ( 14 % ) , compared to 2015 .",
+      "text_15": "the increase was attributable to higher net sales of approximately $ 1.7 billion for the f-35 program due to increased volume on aircraft production and sustainment activities , partially offset by lower volume on development activities ; and approximately $ 290 million for the c-130 program due to increased deliveries ( 24 aircraft delivered in 2016 compared to 21 in 2015 ) and increased sustainment activities ; and approximately $ 250 million for the f-16 program primarily due to higher volume on aircraft modernization programs .",
+      "text_9": "the consolidated net adjustments for 2015 are inclusive of approximately $ 550 million in unfavorable items , which include reserves for performance matters on an international program at rms and on commercial satellite programs at space systems ."
+    }
+  },
+  {
+    "question": "what is the interest from 2017 to 2025 as a percentage of the total long-term borrowings?",
+    "answer": "1.64%",
+    "program_re": "divide(multiply(9, 9), 4938)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "( in millions )",
+        "maturityamount",
+        "unamortized discount and debt issuance costs",
+        "carrying value",
+        "fair value"
+      ],
+      [
+        "6.25% ( 6.25 % ) notes due 2017",
+        "$ 700",
+        "$ 2014",
+        "$ 700",
+        "$ 724"
+      ],
+      [
+        "5.00% ( 5.00 % ) notes due 2019",
+        "1000",
+        "-3 ( 3 )",
+        "997",
+        "1086"
+      ],
+      [
+        "4.25% ( 4.25 % ) notes due 2021",
+        "750",
+        "-4 ( 4 )",
+        "746",
+        "808"
+      ],
+      [
+        "3.375% ( 3.375 % ) notes due 2022",
+        "750",
+        "-4 ( 4 )",
+        "746",
+        "775"
+      ],
+      [
+        "3.50% ( 3.50 % ) notes due 2024",
+        "1000",
+        "-6 ( 6 )",
+        "994",
+        "1030"
+      ],
+      [
+        "1.25% ( 1.25 % ) notes due 2025",
+        "738",
+        "-6 ( 6 )",
+        "732",
+        "742"
+      ],
+      [
+        "total long-term borrowings",
+        "$ 4938",
+        "$ -23 ( 23 )",
+        "$ 4915",
+        "$ 5165"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_7": "( in millions ) the total long-term borrowings of maturityamount is $ 4938 ; the total long-term borrowings of unamortized discount and debt issuance costs is $ -23 ( 23 ) ; the total long-term borrowings of carrying value is $ 4915 ; the total long-term borrowings of fair value is $ 5165 ;",
+      "text_15": "long-term borrowings the carrying value and fair value of long-term borrowings estimated using market prices and foreign exchange rates at december 31 , 2016 included the following : ( in millions ) maturity amount unamortized discount and debt issuance costs carrying value fair value .",
+      "text_20": "interest of approximately $ 9 million per year based on current exchange rates is payable annually on may 6 of each year ."
+    }
+  },
+  {
+    "question": "what is the total value of the issued options , warrants and rights , ( in millions ) ?",
+    "answer": "125.5",
+    "program_re": "divide(multiply(1442912, 86.98), const_1000000)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "plan category",
+        "number of securitiesto be issued uponexercise ofoutstanding options warrants and rights ( a ) ( b )",
+        "weighted-averageexercise price ofoutstanding options warrants and rights",
+        "number of securitiesremaining available forfuture issuance underequity compensationplans ( excludingsecurities reflected in column ( a ) ) ( c )"
+      ],
+      [
+        "equity compensation plans approved by security holders",
+        "1442912",
+        "$ 86.98",
+        "4446967"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_1": "plan category the equity compensation plans approved by security holders of number of securitiesto be issued uponexercise ofoutstanding options warrants and rights ( a ) ( b ) is 1442912 ; the equity compensation plans approved by security holders of weighted-averageexercise price ofoutstanding options warrants and rights is $ 86.98 ; the equity compensation plans approved by security holders of number of securitiesremaining available forfuture issuance underequity compensationplans ( excludingsecurities reflected in column ( a ) ) ( c ) is 4446967 ;"
+    }
+  },
+  {
+    "question": "what percentage of future minimum lease commitments at december 31 , 2006 for all operating leases that have a remaining term of more than one year are due in 2007?",
+    "answer": "26%",
+    "program_re": "divide(288, multiply(1.1, const_1000))",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "( in millions )",
+        "pensionbenefits",
+        "otherbenefits"
+      ],
+      [
+        "2007",
+        "$ 1440",
+        "$ 260"
+      ],
+      [
+        "2008",
+        "1490",
+        "260"
+      ],
+      [
+        "2009",
+        "1540",
+        "270"
+      ],
+      [
+        "2010",
+        "1600",
+        "270"
+      ],
+      [
+        "2011",
+        "1660",
+        "270"
+      ],
+      [
+        "years 2012 2013 2016",
+        "9530",
+        "1260"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "text_9": "future minimum lease commitments at december 31 , 2006 for all operating leases that have a remaining term of more than one year were $ 1.1 billion ( $ 288 million in 2007 , $ 254 million in 2008 , $ 211 million in 2009 , $ 153 million in 2010 , $ 118 million in 2011 and $ 121 million in later years ) ."
+    }
+  },
+  {
+    "question": "what is the total value of the options , warrants and rights that remain available for future issuance , ( in millions ) ?",
+    "answer": "386.8",
+    "program_re": "divide(multiply(4446967, 86.98), const_1000000)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "plan category",
+        "number of securitiesto be issued uponexercise ofoutstanding options warrants and rights ( a ) ( b )",
+        "weighted-averageexercise price ofoutstanding options warrants and rights",
+        "number of securitiesremaining available forfuture issuance underequity compensationplans ( excludingsecurities reflected in column ( a ) ) ( c )"
+      ],
+      [
+        "equity compensation plans approved by security holders",
+        "1442912",
+        "$ 86.98",
+        "4446967"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_1": "plan category the equity compensation plans approved by security holders of number of securitiesto be issued uponexercise ofoutstanding options warrants and rights ( a ) ( b ) is 1442912 ; the equity compensation plans approved by security holders of weighted-averageexercise price ofoutstanding options warrants and rights is $ 86.98 ; the equity compensation plans approved by security holders of number of securitiesremaining available forfuture issuance underequity compensationplans ( excludingsecurities reflected in column ( a ) ) ( c ) is 4446967 ;"
+    }
+  },
+  {
+    "question": "considering the second quarter of 2017 , what is the average sale price per share of the company 2019s common stock?",
+    "answer": "25.20",
+    "program_re": "divide(add(28.65, 21.76), const_2)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "quarter",
+        "2017 high",
+        "2017 low",
+        "2017 dividend",
+        "2017 high",
+        "2017 low",
+        "dividend"
+      ],
+      [
+        "first",
+        "$ 30.69",
+        "$ 18.64",
+        "$ 0.06",
+        "$ 30.66",
+        "$ 18.42",
+        "$ 0.09"
+      ],
+      [
+        "second",
+        "28.65",
+        "21.76",
+        "0.06",
+        "34.50",
+        "26.34",
+        "0.09"
+      ],
+      [
+        "third",
+        "26.84",
+        "22.67",
+        "0.06",
+        "32.91",
+        "27.09",
+        "0.09"
+      ],
+      [
+        "fourth ( separation occurred on november 1 2016 )",
+        "27.85",
+        "22.74",
+        "0.06",
+        "32.10",
+        "16.75",
+        "0.09"
+      ],
+      [
+        "year",
+        "$ 30.69",
+        "$ 18.64",
+        "$ 0.24",
+        "$ 34.50",
+        "$ 16.75",
+        "$ 0.36"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_2": "quarter the second of 2017 high is 28.65 ; the second of 2017 low is 21.76 ; the second of 2017 dividend is 0.06 ; the second of 2017 high is 34.50 ; the second of 2017 low is 26.34 ; the second of dividend is 0.09 ;",
+      "text_12": "the following table sets forth , for the periods indicated , the high and low sales prices and quarterly dividend amounts per share of the company 2019s common stock as reported on the new york stock exchange , adjusted to take into account the reverse stock split effected on october 6 , 2016 ."
+    }
+  },
+  {
+    "question": "what percentage of industrial packaging sales where represented by european industrial packaging net sales in 2006?",
+    "answer": "20%",
+    "program_re": "divide(multiply(const_1, const_1000), 4925)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "in millions",
+        "2007",
+        "2006",
+        "2005"
+      ],
+      [
+        "sales",
+        "$ 5245",
+        "$ 4925",
+        "$ 4625"
+      ],
+      [
+        "operating profit",
+        "$ 501",
+        "$ 399",
+        "$ 219"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_1": "in millions the sales of 2007 is $ 5245 ; the sales of 2006 is $ 4925 ; the sales of 2005 is $ 4625 ;",
+      "text_29": "european industrial packaging net sales for 2007 were $ 1.1 billion , up from $ 1.0 billion in 2006 and $ 880 million in 2005 ."
+    }
+  },
+  {
+    "question": "what percentage of total commercial mortgages were at fair value?",
+    "answer": "71.1%",
+    "program_re": "divide(add(1050, 1401), add(1301, 2148))",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "in millions",
+        "dec.31 2009",
+        "dec . 312008"
+      ],
+      [
+        "commercial mortgages at fair value",
+        "$ 1050",
+        "$ 1401"
+      ],
+      [
+        "commercial mortgages at lower of cost or market",
+        "251",
+        "747"
+      ],
+      [
+        "total commercial mortgages",
+        "1301",
+        "2148"
+      ],
+      [
+        "residential mortgages at fair value",
+        "1012",
+        "1824"
+      ],
+      [
+        "residential mortgages at lower of cost or market",
+        "",
+        "138"
+      ],
+      [
+        "total residential mortgages",
+        "1012",
+        "1962"
+      ],
+      [
+        "other",
+        "226",
+        "256"
+      ],
+      [
+        "total",
+        "$ 2539",
+        "$ 4366"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_1": "in millions the commercial mortgages at fair value of dec.31 2009 is $ 1050 ; the commercial mortgages at fair value of dec . 312008 is $ 1401 ;",
+      "table_3": "in millions the total commercial mortgages of dec.31 2009 is 1301 ; the total commercial mortgages of dec . 312008 is 2148 ;",
+      "text_22": "31 ."
+    }
+  },
+  {
+    "question": "what was the average investment income ( loss ) net 2013 to 2015",
+    "answer": "317.7",
+    "program_re": "divide(add(add(576, add(81, 296)), const_3), const_2)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "year ended december 31 ( in millions )",
+        "2015",
+        "2014",
+        "2013"
+      ],
+      [
+        "interest expense",
+        "$ -2702 ( 2702 )",
+        "$ -2617 ( 2617 )",
+        "$ -2574 ( 2574 )"
+      ],
+      [
+        "investment income ( loss ) net",
+        "81",
+        "296",
+        "576"
+      ],
+      [
+        "equity in net income ( losses ) of investees net",
+        "-325 ( 325 )",
+        "97",
+        "-86 ( 86 )"
+      ],
+      [
+        "other income ( expense ) net",
+        "320",
+        "-215 ( 215 )",
+        "-364 ( 364 )"
+      ],
+      [
+        "total",
+        "$ -2626 ( 2626 )",
+        "$ -2439 ( 2439 )",
+        "$ -2448 ( 2448 )"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_2": "year ended december 31 ( in millions ) the investment income ( loss ) net of 2015 is 81 ; the investment income ( loss ) net of 2014 is 296 ; the investment income ( loss ) net of 2013 is 576 ;"
+    }
+  },
+  {
+    "question": "what was the average annual creation of new stores for aap from 2008 to 2012?",
+    "answer": "101 stores created per year",
+    "program_re": "divide(add(116, 109), const_2)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "",
+        "2012",
+        "2011",
+        "2010",
+        "2009",
+        "2008"
+      ],
+      [
+        "beginning stores",
+        "3460",
+        "3369",
+        "3264",
+        "3243",
+        "3153"
+      ],
+      [
+        "new stores ( 1 )",
+        "116",
+        "95",
+        "110",
+        "75",
+        "109"
+      ],
+      [
+        "stores closed",
+        "2014",
+        "-4 ( 4 )",
+        "-5 ( 5 )",
+        "-54 ( 54 )",
+        "-19 ( 19 )"
+      ],
+      [
+        "ending stores",
+        "3576",
+        "3460",
+        "3369",
+        "3264",
+        "3243"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_2": "the new stores ( 1 ) of 2012 is 116 ; the new stores ( 1 ) of 2011 is 95 ; the new stores ( 1 ) of 2010 is 110 ; the new stores ( 1 ) of 2009 is 75 ; the new stores ( 1 ) of 2008 is 109 ;",
+      "text_0": "the following table sets forth information concerning increases in the total number of our aap stores during the past five years: .",
+      "text_1": "( 1 ) does not include stores that opened as relocations of previously existing stores within the same general market area or substantial renovations of stores ."
+    }
+  },
+  {
+    "question": "what is the average cost of interest , in millions , for 2016-2018?",
+    "answer": "74.33",
+    "program_re": "divide(add(add(90, 61), 72), const_3)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "( millions of dollars )",
+        "pension plans 2018",
+        "pension plans 2017",
+        "pension plans 2016"
+      ],
+      [
+        "service cost",
+        "$ 136",
+        "$ 110",
+        "$ 81"
+      ],
+      [
+        "interest cost",
+        "90",
+        "61",
+        "72"
+      ],
+      [
+        "expected return on plan assets",
+        "-154 ( 154 )",
+        "-112 ( 112 )",
+        "-109 ( 109 )"
+      ],
+      [
+        "amortization of prior service credit",
+        "-13 ( 13 )",
+        "-14 ( 14 )",
+        "-15 ( 15 )"
+      ],
+      [
+        "amortization of loss",
+        "78",
+        "92",
+        "77"
+      ],
+      [
+        "settlements",
+        "2",
+        "2014",
+        "7"
+      ],
+      [
+        "net pension cost",
+        "$ 137",
+        "$ 138",
+        "$ 113"
+      ],
+      [
+        "net pension cost included in the preceding table that is attributable to international plans",
+        "$ 34",
+        "$ 43",
+        "$ 35"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_2": "( millions of dollars ) the interest cost of pension plans 2018 is 90 ; the interest cost of pension plans 2017 is 61 ; the interest cost of pension plans 2016 is 72 ;",
+      "text_4": "pension plan was frozen to limit the participation of employees who are hired or re-hired by the company , or who transfer employment to the company , on or after january 1 , net pension cost for the years ended september 30 included the following components: ."
+    }
+  },
+  {
+    "question": "what was the average rent expense from 2010 to 2012 \\\\n",
+    "answer": "215.33",
+    "program_re": "divide(add(add(210, add(231, 205)), const_3), const_2)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "in millions",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "thereafter"
+      ],
+      [
+        "lease obligations",
+        "$ 198",
+        "$ 136",
+        "$ 106",
+        "$ 70",
+        "$ 50",
+        "$ 141"
+      ],
+      [
+        "purchase obligations ( a )",
+        "3213",
+        "828",
+        "722",
+        "620",
+        "808",
+        "2654"
+      ],
+      [
+        "total",
+        "$ 3411",
+        "$ 964",
+        "$ 828",
+        "$ 690",
+        "$ 858",
+        "$ 2795"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "text_2": "rent expense was $ 231 million , $ 205 million and $ 210 million for 2012 , 2011 and 2010 , respectively ."
+    }
+  },
+  {
+    "question": "what was the average industry segment operating profits from 2003 to 2005",
+    "answer": "1899",
+    "program_re": "divide(add(add(1734, add(1923, 2040)), const_3), const_2)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "in millions",
+        "2005",
+        "2004",
+        "2003"
+      ],
+      [
+        "industry segment operating profits",
+        "$ 1923",
+        "$ 2040",
+        "$ 1734"
+      ],
+      [
+        "corporate items",
+        "-597 ( 597 )",
+        "-469 ( 469 )",
+        "-466 ( 466 )"
+      ],
+      [
+        "corporate special items*",
+        "-147 ( 147 )",
+        "-142 ( 142 )",
+        "-281 ( 281 )"
+      ],
+      [
+        "interest expense net",
+        "-593 ( 593 )",
+        "-710 ( 710 )",
+        "-705 ( 705 )"
+      ],
+      [
+        "minority interest",
+        "-12 ( 12 )",
+        "-21 ( 21 )",
+        "-80 ( 80 )"
+      ],
+      [
+        "income tax benefit ( provision )",
+        "285",
+        "-242 ( 242 )",
+        "56"
+      ],
+      [
+        "discontinued operations",
+        "241",
+        "-491 ( 491 )",
+        "57"
+      ],
+      [
+        "accounting changes",
+        "2013",
+        "2013",
+        "-13 ( 13 )"
+      ],
+      [
+        "net earnings ( loss )",
+        "$ 1100",
+        "$ -35 ( 35 )",
+        "$ 302"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_1": "in millions the industry segment operating profits of 2005 is $ 1923 ; the industry segment operating profits of 2004 is $ 2040 ; the industry segment operating profits of 2003 is $ 1734 ;"
+    }
+  },
+  {
+    "question": "what portion of total long-term borrowings is due in the next 36 months?",
+    "answer": "29.3%",
+    "program_re": "divide(add(750, 700), 4950)",
+    "reasoning_steps": [
+      "Step 1: Perform division calculation"
+    ],
+    "table": [
+      [
+        "( in millions )",
+        "maturity amount",
+        "unamortized discount",
+        "carrying value",
+        "fair value"
+      ],
+      [
+        "1.375% ( 1.375 % ) notes due 2015",
+        "$ 750",
+        "$ 2014",
+        "$ 750",
+        "$ 753"
+      ],
+      [
+        "6.25% ( 6.25 % ) notes due 2017",
+        "700",
+        "-1 ( 1 )",
+        "699",
+        "785"
+      ],
+      [
+        "5.00% ( 5.00 % ) notes due 2019",
+        "1000",
+        "-2 ( 2 )",
+        "998",
+        "1134"
+      ],
+      [
+        "4.25% ( 4.25 % ) notes due 2021",
+        "750",
+        "-3 ( 3 )",
+        "747",
+        "825"
+      ],
+      [
+        "3.375% ( 3.375 % ) notes due 2022",
+        "750",
+        "-3 ( 3 )",
+        "747",
+        "783"
+      ],
+      [
+        "3.50% ( 3.50 % ) notes due 2024",
+        "1000",
+        "-3 ( 3 )",
+        "997",
+        "1029"
+      ],
+      [
+        "total long-term borrowings",
+        "$ 4950",
+        "$ -12 ( 12 )",
+        "$ 4938",
+        "$ 5309"
+      ]
+    ],
+    "text": "",
+    "source": "finqa",
+    "original_keys": [
+      "id",
+      "pre_text",
+      "post_text",
+      "table",
+      "question",
+      "answer",
+      "program",
+      "program_re",
+      "gold_inds"
+    ],
+    "gold_inds": {
+      "table_1": "( in millions ) the 1.375% ( 1.375 % ) notes due 2015 of maturity amount is $ 750 ; the 1.375% ( 1.375 % ) notes due 2015 of unamortized discount is $ 2014 ; the 1.375% ( 1.375 % ) notes due 2015 of carrying value is $ 750 ; the 1.375% ( 1.375 % ) notes due 2015 of fair value is $ 753 ;",
+      "table_2": "( in millions ) the 6.25% ( 6.25 % ) notes due 2017 of maturity amount is 700 ; the 6.25% ( 6.25 % ) notes due 2017 of unamortized discount is -1 ( 1 ) ; the 6.25% ( 6.25 % ) notes due 2017 of carrying value is 699 ; the 6.25% ( 6.25 % ) notes due 2017 of fair value is 785 ;",
+      "table_7": "( in millions ) the total long-term borrowings of maturity amount is $ 4950 ; the total long-term borrowings of unamortized discount is $ -12 ( 12 ) ; the total long-term borrowings of carrying value is $ 4938 ; the total long-term borrowings of fair value is $ 5309 ;"
+    }
+  }
+]

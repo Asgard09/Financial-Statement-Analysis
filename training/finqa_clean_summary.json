@@ -1,0 +1,18 @@
+{
+  "total_examples": 886,
+  "source_breakdown": {
+    "finqa": 886
+  },
+  "quality_metrics": {
+    "avg_input_length": 463,
+    "avg_output_length": 57,
+    "examples_with_tables": 886,
+    "examples_with_text": 0,
+    "avg_reasoning_steps": 1.0
+  },
+  "file_breakdown": {
+    "finqa_test_filtered.json": 113,
+    "finqa_train_filtered.json": 678,
+    "finqa_validation_filtered.json": 95
+  }
+}
