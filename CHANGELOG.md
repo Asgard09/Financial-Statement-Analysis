@@ -1,5 +1,7 @@
 # Phase 2 Changes - Simplified to FinQA Only
 
+**Update:** The Phase 2 scripts now live in **`Build Pipeline.ipynb`** only; the former `.py` modules were removed. Open that notebook and use **Run All** (or run each section in order).
+
 ## Changes Made
 
 ### Removed TAT-QA Dependencies
@@ -43,4 +45,4 @@ Your simplified Phase 2 pipeline now focuses on what matters most:
 4. Validate quality
 5. Proceed to Phase 3 training
 
-Run: `python run_phase2.py` to execute the cleaned-up pipeline!
+Run: open **`Build Pipeline.ipynb`** and execute the pipeline (for example **Run All**).

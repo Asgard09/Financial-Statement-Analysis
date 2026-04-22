@@ -18,6 +18,7 @@ Phase 2 transforms raw financial datasets into high-quality training data that t
 
 ```
 Financial_Analysis_AI/
+├── Build Pipeline.ipynb     # Phase 2 pipeline (download → filter → preprocess → validate)
 ├── training/                # Training data and reports
 │   ├── finqa_clean.json    # Main training dataset
 │   ├── finqa_clean_summary.json
@@ -36,28 +37,12 @@ Financial_Analysis_AI/
 
 ## 🚀 Quick Start
 
-### Option 1: Run Complete Pipeline (Recommended)
-```bash
-# Run the complete Phase 2 pipeline
-python run_phase2.py
-```
+Phase 2 runs entirely from **`Build Pipeline.ipynb`**.
 
-This automatically executes all steps and provides a comprehensive summary.
-
-### Option 2: Run Individual Steps
-```bash
-# Step 1: Download datasets
-python datasets_downloader.py
-
-# Step 2: Filter for reasoning examples  
-python data_filter.py
-
-# Step 3: Convert to training format
-python data_preprocessor.py
-
-# Step 4: Validate data quality
-python data_validator.py
-```
+1. Create a virtual environment and install dependencies: `pip install -r requirements.txt` (Jupyter is listed there for running the notebook).
+2. Open `Build Pipeline.ipynb` in VS Code, Cursor, or Jupyter.
+3. Select the correct Python kernel (your venv if you use one).
+4. Use **Run All** to execute the full pipeline, or run each code section in order: downloader → filter → preprocessor → validator.
 
 ## 📊 Expected Results
 
@@ -97,20 +82,11 @@ pip install -r requirements.txt
 
 ## 🎛️ Configuration Options
 
-### Custom Dataset Limits
-Edit `data_preprocessor.py`:
-```python
-max_examples = 10000  # Limit dataset size
-instruction_variety = True  # Use varied instruction formats
-```
+### Custom dataset limits
+In **Build Pipeline.ipynb**, in the **Data preprocessor** code cell, adjust `preprocess_for_training` / `main()` (e.g. set `max_examples`, `instruction_variety`).
 
-### Quality Thresholds
-Edit `data_filter.py`:
-```python
-# Adjust filtering criteria
-min_reasoning_steps = 2
-max_program_complexity = 10
-```
+### Quality thresholds
+In the **Data filter** code cell, edit `has_valid_program` and related logic (e.g. math patterns, max program length) to match your data.
 
 ## 📈 Quality Metrics
 
@@ -139,7 +115,7 @@ The validation report provides comprehensive quality analysis:
 
 **2. "No reasoning examples found"**
 - Datasets may have different field names
-- Check `data_filter.py` logic for your specific dataset format
+- Check the **Data filter** section in `Build Pipeline.ipynb` for your dataset format
 
 **3. "Low quality score"**
 - Review validation report details

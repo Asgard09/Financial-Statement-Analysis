@@ -1,4 +1,7 @@
 # Phase 2: Data Engineering Dependencies
+# Run Phase 2 via Build Pipeline.ipynb
+jupyter>=1.0.0
+matplotlib>=3.7.0
 requests>=2.25.0
 transformers>=4.35.0
 torch>=2.0.0

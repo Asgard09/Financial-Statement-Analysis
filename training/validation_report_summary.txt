@@ -30,11 +30,11 @@ Quality Issues Identified:
 - Only 2.1% of examples contain clear calculations
 
 Recommendations:
-- Consider increasing dataset size (current: {total_examples}). 5,000+ examples recommended for good performance.
+- Consider increasing dataset size (current: 886). 5,000+ examples recommended for good performance.
 - Consider adding more examples with addition operations (current: 12.9%)
 - Consider adding more examples with multiplication operations (current: 4.4%)
 - Consider adding more examples with comparison operations (current: 4.5%)
 - Add more examples with multi-step reasoning for better model training
 - Consider adding examples from multiple data sources for better diversity
-- Consider examples with more detailed explanations (current avg output: {lengths['output_lengths']['avg']:.0f} chars)
+- Consider examples with more detailed explanations (current avg output: 57 chars)
 
